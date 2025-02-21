@@ -1,6 +1,6 @@
 ﻿using _365EJSC.ERP.Contract.Constants;
-using _365EJSC.ERP.Domain.Abstractions.Repositories.Sql;
 using _365EJSC.ERP.Domain.Abstractions.Repositories.Sql.Base;
+using _365EJSC.ERP.Domain.Abstractions.Repositories.Sql.Define;
 using _365EJSC.ERP.Persistence.Repositories;
 using _365EJSC.ERP.Persistence.Repositories.Base;
 using Microsoft.EntityFrameworkCore;
@@ -36,6 +36,9 @@ namespace _365EJSC.ERP.Persistence.DependencyInjection.Extensions
             services.AddScoped<ISqlUnitOfWork, SqlUnitOfWork>();
             services.AddScoped<IWebLocalWardSqlRepository, WebLocalWardSqlRepository>();
             services.AddScoped<IWebLocalDistrictSqlRepository, WebLocalDistrictSqlRepository>();
+            services.AddScoped<IWeblocalSqlRepository, WeblocalSqlRepository>();
+            services.AddScoped<IWebLocalProvinceSqlRepository, WebLocalProvinceSqlRepository>();
+
             return services;
         }
     }

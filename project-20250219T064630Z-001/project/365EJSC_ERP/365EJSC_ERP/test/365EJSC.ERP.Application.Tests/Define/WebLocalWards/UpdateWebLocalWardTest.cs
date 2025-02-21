@@ -2,8 +2,8 @@
 using _365EJSC.ERP.Application.UserCases.Define.WebLocalWards;
 using _365EJSC.ERP.Contract.Enumerations;
 using _365EJSC.ERP.Contract.Exceptions;
-using _365EJSC.ERP.Domain.Abstractions.Repositories.Sql;
 using _365EJSC.ERP.Domain.Abstractions.Repositories.Sql.Base;
+using _365EJSC.ERP.Domain.Abstractions.Repositories.Sql.Define;
 using Moq;
 
 namespace _365EJSC.ERP.Application.Tests.Define.WebLocalWards
@@ -11,16 +11,16 @@ namespace _365EJSC.ERP.Application.Tests.Define.WebLocalWards
     public class UpdateWebLocalWardTest
     {
         private readonly Mock<IWebLocalWardSqlRepository> mockWardSqlRepository;
-        private readonly Mock<IWebLocalDictrictSqlRepository> mockDictrictSqlRepository;
+        private readonly Mock<IWebLocalDistrictSqlRepository> mockDistrictSqlRepository;
         private readonly Mock<ISqlUnitOfWork> mockSqlUnitOfWork;
         private readonly UpdateWebLocalWardHandler handler;
 
         public UpdateWebLocalWardTest()
         {
             mockWardSqlRepository = new Mock<IWebLocalWardSqlRepository>();
-            mockDictrictSqlRepository = new Mock<IWebLocalDictrictSqlRepository>();
+            mockDistrictSqlRepository = new Mock<IWebLocalDistrictSqlRepository>();
             mockSqlUnitOfWork = new Mock<ISqlUnitOfWork>();
-            handler = new UpdateWebLocalWardHandler(mockWardSqlRepository.Object, mockSqlUnitOfWork.Object, mockDictrictSqlRepository.Object);
+            handler = new UpdateWebLocalWardHandler(mockWardSqlRepository.Object, mockSqlUnitOfWork.Object, mockDistrictSqlRepository.Object);
         }
 
         [Fact]

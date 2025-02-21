@@ -23,6 +23,10 @@ namespace _365EJSC.ERP.Persistence.Configurations.Define
             builder.Property(x => x.Latitude).HasColumnName(WebLocalDistrictConst.FIELD_LATITUDE).IsRequired();
             builder.Property(x => x.Longitude).HasColumnName(WebLocalDistrictConst.FIELD_LONGITUDE).IsRequired();
             builder.Property(x => x.ProvinceId).HasColumnName(WebLocalDistrictConst.FIELD_PROVINCE_ID).IsRequired();
+            builder.HasOne(x => x.WebLocalProvince)
+                       .WithMany()
+                       .HasForeignKey(x => x.ProvinceId);
+
 
             builder.ToTable(WebLocalDistrictConst.TABLE_NAME);
         }

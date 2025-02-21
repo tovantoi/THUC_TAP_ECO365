@@ -1,4 +1,5 @@
 ﻿using _365EJSC.ERP.Domain.Abstractions.Aggregates;
+using System.Text.Json.Serialization;
 
 namespace _365EJSC.ERP.Domain.Entities.Define
 {
@@ -41,5 +42,8 @@ namespace _365EJSC.ERP.Domain.Entities.Define
         /// Province ID the district belongs to
         /// </summary>
         public int ProvinceId { get; set; }
+        [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
+        public WebLocalProvince? WebLocalProvince { get; set; }
+
     }
 }

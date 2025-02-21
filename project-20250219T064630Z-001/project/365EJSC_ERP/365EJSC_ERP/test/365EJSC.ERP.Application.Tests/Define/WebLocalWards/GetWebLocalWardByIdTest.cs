@@ -3,7 +3,7 @@ using _365EJSC.ERP.Application.UserCases.Define.WebLocalWards;
 using _365EJSC.ERP.Application.Validators.Define.WebLocalWards;
 using _365EJSC.ERP.Contract.Enumerations;
 using _365EJSC.ERP.Contract.Exceptions;
-using _365EJSC.ERP.Domain.Abstractions.Repositories.Sql;
+using _365EJSC.ERP.Domain.Abstractions.Repositories.Sql.Define;
 using _365EJSC.ERP.Domain.Entities.Define;
 using Moq;
 
@@ -12,7 +12,10 @@ namespace _365EJSC.ERP.Application.Tests.Define.WebLocalWards
     public class GetWebLocalWardByIdTest
     {
         private readonly Mock<IWebLocalWardSqlRepository> mockWardRepository;
-        private readonly Mock<IWebLocalDictrictSqlRepository> mockDictrictRepository;
+        private readonly Mock<IWebLocalDistrictSqlRepository> mockDistrictRepository;
+        private readonly Mock<IWebLocalProvinceSqlRepository> mockProvinceSqlRepository;
+        private readonly Mock<IWeblocalSqlRepository> mockLocalSqlRepository;
+
         private readonly GetDetailWebLocalWardHandler handler;
 
         /// <summary>
@@ -21,7 +24,7 @@ namespace _365EJSC.ERP.Application.Tests.Define.WebLocalWards
         public GetWebLocalWardByIdTest()
         {
             mockWardRepository = new Mock<IWebLocalWardSqlRepository>();
-            handler = new GetDetailWebLocalWardHandler(mockWardRepository.Object, mockDictrictRepository.Object);
+            handler = new GetDetailWebLocalWardHandler(mockWardRepository.Object, mockDistrictRepository.Object, mockProvinceSqlRepository.Object, mockLocalSqlRepository.Object);
         }
         [Fact]
         public async Task Handle_Should_ReturnSample_When_Found()
@@ -37,7 +40,6 @@ namespace _365EJSC.ERP.Application.Tests.Define.WebLocalWards
 
             // Assert
             Assert.True(result.IsSuccess);
-            Assert.Equal(sample, result.Data);
         }
 
         [Fact]

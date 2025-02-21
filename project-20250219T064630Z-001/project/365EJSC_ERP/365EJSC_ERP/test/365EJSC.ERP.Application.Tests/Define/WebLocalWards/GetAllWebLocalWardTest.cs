@@ -1,6 +1,6 @@
 ﻿using _365EJSC.ERP.Application.Requests.Define.WebLocalWards;
 using _365EJSC.ERP.Application.UserCases.Define.WebLocalWards;
-using _365EJSC.ERP.Domain.Abstractions.Repositories.Sql;
+using _365EJSC.ERP.Domain.Abstractions.Repositories.Sql.Define;
 using _365EJSC.ERP.Domain.Entities.Define;
 using Moq;
 
@@ -10,7 +10,7 @@ namespace _365EJSC.ERP.Application.Tests.Define.WebLocalWards
     {
         private readonly Mock<IWebLocalWardSqlRepository> mockWardRepository;
         private readonly GetAllWebLocalWardHandler handler;
-        private readonly Mock<IWebLocalDictrictSqlRepository> mockDictrictRepository;
+        private readonly Mock<IWebLocalDistrictSqlRepository> mockDistrictRepository;
 
         /// <summary>
         /// Initializes a new instance of the <see cref="GetAllSampleTest"/> class.
@@ -18,13 +18,13 @@ namespace _365EJSC.ERP.Application.Tests.Define.WebLocalWards
         public GetAllWebLocalWardTest()
         {
             mockWardRepository = new Mock<IWebLocalWardSqlRepository>();
-            handler = new GetAllWebLocalWardHandler(mockWardRepository.Object, mockDictrictRepository.Object);
+            handler = new GetAllWebLocalWardHandler(mockWardRepository.Object, mockDistrictRepository.Object);
         }
         [Fact]
         public async Task Handle_Should_ReturnAllSamples()
         {
             // Arrange
-            var samples = new List<Domain.Entities.Define.WebLocalWard>
+            var samples = new List<WebLocalWard>
             {
                 new() { Id = 1, Name = "Sample 1" },
                 new() { Id = 2, Name = "Sample 2" }

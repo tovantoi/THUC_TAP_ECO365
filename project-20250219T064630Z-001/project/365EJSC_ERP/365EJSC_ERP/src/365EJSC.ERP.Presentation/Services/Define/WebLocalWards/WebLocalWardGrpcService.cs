@@ -1,6 +1,7 @@
 ﻿using _365EJSC.ERP.Application.Requests.Define.WebLocalWards;
 using _365EJSC.ERP.Contract.DependencyInjection.Extensions;
 using _365EJSC.ERP.Contract.Shared;
+using _365EJSC.ERP.Domain.Entities.Define;
 using Grpc.Core;
 using MediatR;
 using ProtoResult;
@@ -62,7 +63,7 @@ namespace _365EJSC.ERP.Presentation.Services.Define.WebLocalWards
             try
             {
                 GetDetailWebLocalWardRequest? query = request.MapTo<GetDetailWebLocalWardRequest>();
-                Result<Domain.Entities.Define.WebLocalWard> result = await mediator.Send(query);
+                Result<WebLocalWard> result = await mediator.Send(query);
                 return result.ConvertToCommonResult();
             }
             catch (Exception e)
@@ -75,7 +76,7 @@ namespace _365EJSC.ERP.Presentation.Services.Define.WebLocalWards
             try
             {
                 GetAllWebLocalWardRequest query = new();
-                Result<List<Domain.Entities.Define.WebLocalWard>> result = await mediator.Send(query);
+                Result<List<WebLocalWard>> result = await mediator.Send(query);
                 return result.ConvertToCommonResult();
             }
             catch (Exception e)

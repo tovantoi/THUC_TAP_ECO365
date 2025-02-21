@@ -4,40 +4,42 @@ using System.Text.Json.Serialization;
 namespace _365EJSC.ERP.Domain.Entities.Define
 {
     /// <summary>
-    /// Domain entity for WebLocalWard with int key type
+    /// Domain entity with int key type
     /// </summary>
-    public class WebLocalWard : AggregateRoot<int>
+    public class WebLocalProvince : AggregateRoot<int>
     {
         /// <summary>
-        /// Name of WebLocalWard
+        /// Name of webLocalProvince
         /// </summary>
         public string Name { get; set; }
         /// <summary>
-        /// NameEn of WebLocalWard
+        /// NameEn of webLocalProvince
         /// </summary>
         public string NameEn { get; set; }
         /// <summary>
-        /// FullName of WebLocalWard
+        /// FullName of webLocalProvince
         /// </summary>
         public string FullName { get; set; }
         /// <summary>
-        /// FullNameEn of WebLocalWard
+        /// FullNameEn of webLocalProvince
         /// </summary>
         public string FullNameEn { get; set; }
         /// <summary>
-        /// Latitude of WebLocalWard
+        /// Latitude of webLocalProvince
         /// </summary>
         public double Latitude { get; set; }
         /// <summary>
-        /// Longitude of WebLocalWard
+        /// Longitude of webLocalProvince
         /// </summary>
         public double Longitude { get; set; }
         /// <summary>
-        /// DistrictId of WebLocalWard
+        /// KeyLocalization of webLocalProvince
         /// </summary>
-        public int DistrictId { get; set; }
+        public string KeyLocalization { get; set; }
+
 
         [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
-        public WebLocalDistrict? WebLocalDistrict { get; set; }
+        public WebLocals? WebLocals { get; set; }
+
     }
 }

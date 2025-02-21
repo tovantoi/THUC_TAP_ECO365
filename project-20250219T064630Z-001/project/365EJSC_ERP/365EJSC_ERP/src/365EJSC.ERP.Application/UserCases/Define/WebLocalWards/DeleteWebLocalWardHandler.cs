@@ -1,8 +1,8 @@
 ﻿using _365EJSC.ERP.Application.Requests.Define.WebLocalWards;
 using _365EJSC.ERP.Application.Validators.Define.WebLocalWards;
 using _365EJSC.ERP.Contract.Shared;
-using _365EJSC.ERP.Domain.Abstractions.Repositories.Sql;
 using _365EJSC.ERP.Domain.Abstractions.Repositories.Sql.Base;
+using _365EJSC.ERP.Domain.Abstractions.Repositories.Sql.Define;
 using _365EJSC.ERP.Domain.Entities.Define;
 using MediatR;
 using System.Data;
