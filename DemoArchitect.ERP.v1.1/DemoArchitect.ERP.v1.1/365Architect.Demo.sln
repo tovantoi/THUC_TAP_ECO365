@@ -1,0 +1,88 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EABA25A5-4BD7-4D79-93BE-08EE06A0171F}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2E7B5DA2-4E4B-442F-9A65-20ED2E8C5E8C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{778B2BF9-D48A-42DC-AD75-CB7D0D5B6B39}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "365Architect.Demo.Domain", "src\365Architect.Demo.Domain\365Architect.Demo.Domain.csproj", "{B01AE8FF-D8A2-43E3-AB22-412B1899DA0F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "365Architect.Demo.Application", "src\365Architect.Demo.Application\365Architect.Demo.Application.csproj", "{E12283AD-1883-4BC7-A9F3-02E128544B04}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "365Architect.Demo.Infrastructure", "src\365Architect.Demo.Infrastructure\365Architect.Demo.Infrastructure.csproj", "{DEEF68BA-DCAF-4744-8184-C36F20AC9BA9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "365Architect.Demo.Persistence", "src\365Architect.Demo.Persistence\365Architect.Demo.Persistence.csproj", "{CDCCB681-493E-4B74-A9B2-8AD54322E4D6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "365Architect.Demo.Contract", "src\365Architect.Demo.Contract\365Architect.Demo.Contract.csproj", "{315483BE-A736-4CAA-8B3D-B5C0EB078C81}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "365Architect.Demo.Presentation", "src\365Architect.Demo.Presentation\365Architect.Demo.Presentation.csproj", "{16277478-0ED6-4A61-9850-8A1BC0F6874A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "365Architect.Demo.API", "src\365Architect.Demo.API\365Architect.Demo.API.csproj", "{3A33664B-C292-4E0B-93AC-F6E123922881}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "365Architect.Demo.Application.Tests", "test\365Architect.Demo.Application.Tests\365Architect.Demo.Application.Tests.csproj", "{8CAC1B89-4C2E-4A39-916E-2CBBAF9F9CC0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B01AE8FF-D8A2-43E3-AB22-412B1899DA0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B01AE8FF-D8A2-43E3-AB22-412B1899DA0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B01AE8FF-D8A2-43E3-AB22-412B1899DA0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B01AE8FF-D8A2-43E3-AB22-412B1899DA0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E12283AD-1883-4BC7-A9F3-02E128544B04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E12283AD-1883-4BC7-A9F3-02E128544B04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E12283AD-1883-4BC7-A9F3-02E128544B04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E12283AD-1883-4BC7-A9F3-02E128544B04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEEF68BA-DCAF-4744-8184-C36F20AC9BA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEEF68BA-DCAF-4744-8184-C36F20AC9BA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEEF68BA-DCAF-4744-8184-C36F20AC9BA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEEF68BA-DCAF-4744-8184-C36F20AC9BA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDCCB681-493E-4B74-A9B2-8AD54322E4D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDCCB681-493E-4B74-A9B2-8AD54322E4D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDCCB681-493E-4B74-A9B2-8AD54322E4D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDCCB681-493E-4B74-A9B2-8AD54322E4D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{315483BE-A736-4CAA-8B3D-B5C0EB078C81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{315483BE-A736-4CAA-8B3D-B5C0EB078C81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{315483BE-A736-4CAA-8B3D-B5C0EB078C81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{315483BE-A736-4CAA-8B3D-B5C0EB078C81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16277478-0ED6-4A61-9850-8A1BC0F6874A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16277478-0ED6-4A61-9850-8A1BC0F6874A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16277478-0ED6-4A61-9850-8A1BC0F6874A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16277478-0ED6-4A61-9850-8A1BC0F6874A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A33664B-C292-4E0B-93AC-F6E123922881}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A33664B-C292-4E0B-93AC-F6E123922881}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A33664B-C292-4E0B-93AC-F6E123922881}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A33664B-C292-4E0B-93AC-F6E123922881}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CAC1B89-4C2E-4A39-916E-2CBBAF9F9CC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CAC1B89-4C2E-4A39-916E-2CBBAF9F9CC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CAC1B89-4C2E-4A39-916E-2CBBAF9F9CC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CAC1B89-4C2E-4A39-916E-2CBBAF9F9CC0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B01AE8FF-D8A2-43E3-AB22-412B1899DA0F} = {2E7B5DA2-4E4B-442F-9A65-20ED2E8C5E8C}
+		{E12283AD-1883-4BC7-A9F3-02E128544B04} = {2E7B5DA2-4E4B-442F-9A65-20ED2E8C5E8C}
+		{DEEF68BA-DCAF-4744-8184-C36F20AC9BA9} = {2E7B5DA2-4E4B-442F-9A65-20ED2E8C5E8C}
+		{CDCCB681-493E-4B74-A9B2-8AD54322E4D6} = {2E7B5DA2-4E4B-442F-9A65-20ED2E8C5E8C}
+		{315483BE-A736-4CAA-8B3D-B5C0EB078C81} = {2E7B5DA2-4E4B-442F-9A65-20ED2E8C5E8C}
+		{16277478-0ED6-4A61-9850-8A1BC0F6874A} = {2E7B5DA2-4E4B-442F-9A65-20ED2E8C5E8C}
+		{3A33664B-C292-4E0B-93AC-F6E123922881} = {2E7B5DA2-4E4B-442F-9A65-20ED2E8C5E8C}
+		{8CAC1B89-4C2E-4A39-916E-2CBBAF9F9CC0} = {778B2BF9-D48A-42DC-AD75-CB7D0D5B6B39}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F1EB9A7-2DE2-40A7-87CC-681ABE3854D0}
+	EndGlobalSection
+EndGlobal

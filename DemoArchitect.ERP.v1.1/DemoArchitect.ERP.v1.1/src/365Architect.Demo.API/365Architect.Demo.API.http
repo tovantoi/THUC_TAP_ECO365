@@ -1,0 +1,6 @@
+@_365Architect.Demo.API_HostAddress = http://localhost:5193
+
+GET {{_365Architect.Demo.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

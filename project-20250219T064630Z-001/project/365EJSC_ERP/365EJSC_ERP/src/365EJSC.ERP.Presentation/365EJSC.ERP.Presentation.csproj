@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>_365EJSC.ERP.Presentation</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+	
+	<ItemGroup>
+		<PackageReference Include="Grpc.AspNetCore" Version="2.63.0" />
+		<PackageReference Include="Grpc.AspNetCore.Server.Reflection" Version="2.63.0" />
+		<PackageReference Include="Grpc.AspNetCore.Web" Version="2.65.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
+	<ItemGroup>
+		<!-- Ward query -->
+		<Protobuf Include="Protos\Define\WebLocalWard\ward_query.proto" GrpcServices="Server" ProtoRoot="Protos\" AdditionalImportDirs="..\365EJSC.ERP.Contract\Protos\" />
+		<!-- Ward command -->
+		<Protobuf Include="Protos\Define\WebLocalWard\ward_command.proto" GrpcServices="Server" ProtoRoot="Protos\" AdditionalImportDirs="..\365EJSC.ERP.Contract\Protos\" />
+	</ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\365ejsc.erp.Application\365EJSC.ERP.Application.csproj" />
+    <ProjectReference Include="..\365ejsc.erp.Infrastructure\365EJSC.ERP.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

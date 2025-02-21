@@ -1,0 +1,25 @@
+﻿syntax = "proto3";
+import "google/protobuf/timestamp.proto";
+import "google/protobuf/wrappers.proto";
+import "result.proto";
+
+package UserProduct;
+
+service UserProductCommand {
+  rpc CreateProduct(CreateProductRequest) returns (CommonResult);
+  rpc UpdateProduct(UpdateProductRequest) returns (CommonResult);
+  rpc DeleteProduct(DeleteProductRequest) returns (CommonResult);
+}
+message CreateProductRequest{
+	optional google.protobuf.StringValue Name = 1;
+    optional google.protobuf.StringValue Description = 2;
+}
+message UpdateProductRequest{
+	optional google.protobuf.Int32Value Id = 1;
+	optional google.protobuf.StringValue Name = 2;
+    optional google.protobuf.StringValue Description = 3;
+}
+message DeleteProductRequest{
+	optional google.protobuf.Int32Value Id = 1;
+}
+

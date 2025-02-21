@@ -1,0 +1,6 @@
+@SOURCE_REVIEW_HostAddress = http://localhost:5187
+
+GET {{SOURCE_REVIEW_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

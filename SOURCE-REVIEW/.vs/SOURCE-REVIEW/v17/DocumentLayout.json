@@ -1,0 +1,1148 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\THUCTAP2025\\SOURCE-REVIEW\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B0984086-93AD-4567-9050-E801F065619C}|review.Presentation\\review.Presentation.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.presentation\\services\\product\\adminproductcommandgrpcservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0984086-93AD-4567-9050-E801F065619C}|review.Presentation\\review.Presentation.csproj|solutionrelative:review.presentation\\services\\product\\adminproductcommandgrpcservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0984086-93AD-4567-9050-E801F065619C}|review.Presentation\\review.Presentation.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.presentation\\protos\\product\\user_product_query.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{B0984086-93AD-4567-9050-E801F065619C}|review.Presentation\\review.Presentation.csproj|solutionrelative:review.presentation\\protos\\product\\user_product_query.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0984086-93AD-4567-9050-E801F065619C}|review.Presentation\\review.Presentation.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.presentation\\protos\\product\\user_product_command.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{B0984086-93AD-4567-9050-E801F065619C}|review.Presentation\\review.Presentation.csproj|solutionrelative:review.presentation\\protos\\product\\user_product_command.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0984086-93AD-4567-9050-E801F065619C}|review.Presentation\\review.Presentation.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.presentation\\protos\\product\\admin_product_query.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{B0984086-93AD-4567-9050-E801F065619C}|review.Presentation\\review.Presentation.csproj|solutionrelative:review.presentation\\protos\\product\\admin_product_query.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0984086-93AD-4567-9050-E801F065619C}|review.Presentation\\review.Presentation.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.presentation\\protos\\product\\admin_product_command.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{B0984086-93AD-4567-9050-E801F065619C}|review.Presentation\\review.Presentation.csproj|solutionrelative:review.presentation\\protos\\product\\admin_product_command.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0984086-93AD-4567-9050-E801F065619C}|review.Presentation\\review.Presentation.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.presentation\\services\\product\\adminproductquerygrpcservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0984086-93AD-4567-9050-E801F065619C}|review.Presentation\\review.Presentation.csproj|solutionrelative:review.presentation\\services\\product\\adminproductquerygrpcservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CC6471-FEBA-4768-BFEC-791C643EC6AA}|review.Persistence\\review.Persistence.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.persistence\\configurations\\productconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CC6471-FEBA-4768-BFEC-791C643EC6AA}|review.Persistence\\review.Persistence.csproj|solutionrelative:review.persistence\\configurations\\productconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF5D3C53-8F73-4001-AC5C-FE64B927C02D}|review.Contract\\review.Contract.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.contract\\helpers\\environmenthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF5D3C53-8F73-4001-AC5C-FE64B927C02D}|review.Contract\\review.Contract.csproj|solutionrelative:review.contract\\helpers\\environmenthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF5D3C53-8F73-4001-AC5C-FE64B927C02D}|review.Contract\\review.Contract.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.contract\\protos\\result.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{DF5D3C53-8F73-4001-AC5C-FE64B927C02D}|review.Contract\\review.Contract.csproj|solutionrelative:review.contract\\protos\\result.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CC6471-FEBA-4768-BFEC-791C643EC6AA}|review.Persistence\\review.Persistence.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.persistence\\dependencyinjection\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CC6471-FEBA-4768-BFEC-791C643EC6AA}|review.Persistence\\review.Persistence.csproj|solutionrelative:review.persistence\\dependencyinjection\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDF99435-4830-4CB4-944F-5D586B6110DE}|review.application\\review.application.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.application\\validators\\product\\getdetailproductvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDF99435-4830-4CB4-944F-5D586B6110DE}|review.application\\review.application.csproj|solutionrelative:review.application\\validators\\product\\getdetailproductvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDF99435-4830-4CB4-944F-5D586B6110DE}|review.application\\review.application.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.application\\validators\\product\\deleteproductvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDF99435-4830-4CB4-944F-5D586B6110DE}|review.application\\review.application.csproj|solutionrelative:review.application\\validators\\product\\deleteproductvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDF99435-4830-4CB4-944F-5D586B6110DE}|review.application\\review.application.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.application\\validators\\product\\createproductvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDF99435-4830-4CB4-944F-5D586B6110DE}|review.application\\review.application.csproj|solutionrelative:review.application\\validators\\product\\createproductvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF5D3C53-8F73-4001-AC5C-FE64B927C02D}|review.Contract\\review.Contract.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.contract\\constants\\const.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF5D3C53-8F73-4001-AC5C-FE64B927C02D}|review.Contract\\review.Contract.csproj|solutionrelative:review.contract\\constants\\const.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF5D3C53-8F73-4001-AC5C-FE64B927C02D}|review.Contract\\review.Contract.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.contract\\constants\\dateformat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF5D3C53-8F73-4001-AC5C-FE64B927C02D}|review.Contract\\review.Contract.csproj|solutionrelative:review.contract\\constants\\dateformat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDF99435-4830-4CB4-944F-5D586B6110DE}|review.application\\review.application.csproj|d:\\thuctap2025\\source-review\\review.application\\usercases\\product\\deleteproducthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDF99435-4830-4CB4-944F-5D586B6110DE}|review.application\\review.application.csproj|solutionrelative:review.application\\usercases\\product\\deleteproducthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDF99435-4830-4CB4-944F-5D586B6110DE}|review.application\\review.application.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.application\\usercases\\product\\createproducthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDF99435-4830-4CB4-944F-5D586B6110DE}|review.application\\review.application.csproj|solutionrelative:review.application\\usercases\\product\\createproducthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9867BE34-0354-47BC-9EE5-E464596F884A}|review.Domain\\review.Domain.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9867BE34-0354-47BC-9EE5-E464596F884A}|review.Domain\\review.Domain.csproj|solutionrelative:review.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0984086-93AD-4567-9050-E801F065619C}|review.Presentation\\review.Presentation.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.presentation\\extensions\\endpointextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0984086-93AD-4567-9050-E801F065619C}|review.Presentation\\review.Presentation.csproj|solutionrelative:review.presentation\\extensions\\endpointextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{036F63C8-6DC6-4C3F-B9D6-DDF6B24F0C23}|SOURCE-REVIEW\\SOURCE-REVIEW.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\source-review\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{036F63C8-6DC6-4C3F-B9D6-DDF6B24F0C23}|SOURCE-REVIEW\\SOURCE-REVIEW.csproj|solutionrelative:source-review\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0984086-93AD-4567-9050-E801F065619C}|review.Presentation\\review.Presentation.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.presentation\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0984086-93AD-4567-9050-E801F065619C}|review.Presentation\\review.Presentation.csproj|solutionrelative:review.presentation\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF5D3C53-8F73-4001-AC5C-FE64B927C02D}|review.Contract\\review.Contract.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.contract\\dependencyinjection\\extensions\\exceptionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF5D3C53-8F73-4001-AC5C-FE64B927C02D}|review.Contract\\review.Contract.csproj|solutionrelative:review.contract\\dependencyinjection\\extensions\\exceptionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDF99435-4830-4CB4-944F-5D586B6110DE}|review.application\\review.application.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.application\\dependencyinjection\\extension\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDF99435-4830-4CB4-944F-5D586B6110DE}|review.application\\review.application.csproj|solutionrelative:review.application\\dependencyinjection\\extension\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0984086-93AD-4567-9050-E801F065619C}|review.Presentation\\review.Presentation.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.presentation\\services\\product\\userproductquerygrpcservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0984086-93AD-4567-9050-E801F065619C}|review.Presentation\\review.Presentation.csproj|solutionrelative:review.presentation\\services\\product\\userproductquerygrpcservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0984086-93AD-4567-9050-E801F065619C}|review.Presentation\\review.Presentation.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.presentation\\services\\product\\userproductcommandgrpcservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0984086-93AD-4567-9050-E801F065619C}|review.Presentation\\review.Presentation.csproj|solutionrelative:review.presentation\\services\\product\\userproductcommandgrpcservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDF99435-4830-4CB4-944F-5D586B6110DE}|review.application\\review.application.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.application\\requests\\product\\getdetailproductquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDF99435-4830-4CB4-944F-5D586B6110DE}|review.application\\review.application.csproj|solutionrelative:review.application\\requests\\product\\getdetailproductquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0984086-93AD-4567-9050-E801F065619C}|review.Presentation\\review.Presentation.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.presentation\\review.presentation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B0984086-93AD-4567-9050-E801F065619C}|review.Presentation\\review.Presentation.csproj|solutionrelative:review.presentation\\review.presentation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CC6471-FEBA-4768-BFEC-791C643EC6AA}|review.Persistence\\review.Persistence.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.persistence\\repositories\\productsqlrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CC6471-FEBA-4768-BFEC-791C643EC6AA}|review.Persistence\\review.Persistence.csproj|solutionrelative:review.persistence\\repositories\\productsqlrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF5D3C53-8F73-4001-AC5C-FE64B927C02D}|review.Contract\\review.Contract.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.contract\\review.contract.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DF5D3C53-8F73-4001-AC5C-FE64B927C02D}|review.Contract\\review.Contract.csproj|solutionrelative:review.contract\\review.contract.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CC6471-FEBA-4768-BFEC-791C643EC6AA}|review.Persistence\\review.Persistence.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.persistence\\review.persistence.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{84CC6471-FEBA-4768-BFEC-791C643EC6AA}|review.Persistence\\review.Persistence.csproj|solutionrelative:review.persistence\\review.persistence.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDF99435-4830-4CB4-944F-5D586B6110DE}|review.application\\review.application.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.application\\usercases\\product\\updateproducthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDF99435-4830-4CB4-944F-5D586B6110DE}|review.application\\review.application.csproj|solutionrelative:review.application\\usercases\\product\\updateproducthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDF99435-4830-4CB4-944F-5D586B6110DE}|review.application\\review.application.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.application\\usercases\\product\\getdetailproducthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDF99435-4830-4CB4-944F-5D586B6110DE}|review.application\\review.application.csproj|solutionrelative:review.application\\usercases\\product\\getdetailproducthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDF99435-4830-4CB4-944F-5D586B6110DE}|review.application\\review.application.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.application\\usercases\\product\\getallproductshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDF99435-4830-4CB4-944F-5D586B6110DE}|review.application\\review.application.csproj|solutionrelative:review.application\\usercases\\product\\getallproductshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDF99435-4830-4CB4-944F-5D586B6110DE}|review.application\\review.application.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.application\\requests\\product\\updateproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDF99435-4830-4CB4-944F-5D586B6110DE}|review.application\\review.application.csproj|solutionrelative:review.application\\requests\\product\\updateproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDF99435-4830-4CB4-944F-5D586B6110DE}|review.application\\review.application.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.application\\requests\\product\\getallproductsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDF99435-4830-4CB4-944F-5D586B6110DE}|review.application\\review.application.csproj|solutionrelative:review.application\\requests\\product\\getallproductsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDF99435-4830-4CB4-944F-5D586B6110DE}|review.application\\review.application.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.application\\requests\\product\\deleteproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDF99435-4830-4CB4-944F-5D586B6110DE}|review.application\\review.application.csproj|solutionrelative:review.application\\requests\\product\\deleteproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDF99435-4830-4CB4-944F-5D586B6110DE}|review.application\\review.application.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.application\\requests\\product\\createproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDF99435-4830-4CB4-944F-5D586B6110DE}|review.application\\review.application.csproj|solutionrelative:review.application\\requests\\product\\createproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF5D3C53-8F73-4001-AC5C-FE64B927C02D}|review.Contract\\review.Contract.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.contract\\enumerations\\msgcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF5D3C53-8F73-4001-AC5C-FE64B927C02D}|review.Contract\\review.Contract.csproj|solutionrelative:review.contract\\enumerations\\msgcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9867BE34-0354-47BC-9EE5-E464596F884A}|review.Domain\\review.Domain.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.domain\\abstractions\\repositories\\sql\\iproductsqlrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9867BE34-0354-47BC-9EE5-E464596F884A}|review.Domain\\review.Domain.csproj|solutionrelative:review.domain\\abstractions\\repositories\\sql\\iproductsqlrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9867BE34-0354-47BC-9EE5-E464596F884A}|review.Domain\\review.Domain.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.domain\\abstractions\\repositories\\sql\\base\\isqlunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9867BE34-0354-47BC-9EE5-E464596F884A}|review.Domain\\review.Domain.csproj|solutionrelative:review.domain\\abstractions\\repositories\\sql\\base\\isqlunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9867BE34-0354-47BC-9EE5-E464596F884A}|review.Domain\\review.Domain.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.domain\\abstractions\\repositories\\sql\\base\\igenericsqlrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9867BE34-0354-47BC-9EE5-E464596F884A}|review.Domain\\review.Domain.csproj|solutionrelative:review.domain\\abstractions\\repositories\\sql\\base\\igenericsqlrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9867BE34-0354-47BC-9EE5-E464596F884A}|review.Domain\\review.Domain.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.domain\\abstractions\\entities\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9867BE34-0354-47BC-9EE5-E464596F884A}|review.Domain\\review.Domain.csproj|solutionrelative:review.domain\\abstractions\\entities\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9867BE34-0354-47BC-9EE5-E464596F884A}|review.Domain\\review.Domain.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.domain\\abstractions\\entities\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9867BE34-0354-47BC-9EE5-E464596F884A}|review.Domain\\review.Domain.csproj|solutionrelative:review.domain\\abstractions\\entities\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9867BE34-0354-47BC-9EE5-E464596F884A}|review.Domain\\review.Domain.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.domain\\abstractions\\aggregates\\iaggregateroot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9867BE34-0354-47BC-9EE5-E464596F884A}|review.Domain\\review.Domain.csproj|solutionrelative:review.domain\\abstractions\\aggregates\\iaggregateroot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9867BE34-0354-47BC-9EE5-E464596F884A}|review.Domain\\review.Domain.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.domain\\abstractions\\aggregates\\aggregateroot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9867BE34-0354-47BC-9EE5-E464596F884A}|review.Domain\\review.Domain.csproj|solutionrelative:review.domain\\abstractions\\aggregates\\aggregateroot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDF99435-4830-4CB4-944F-5D586B6110DE}|review.application\\review.application.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.application\\validators\\product\\updateproductvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDF99435-4830-4CB4-944F-5D586B6110DE}|review.application\\review.application.csproj|solutionrelative:review.application\\validators\\product\\updateproductvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9867BE34-0354-47BC-9EE5-E464596F884A}|review.Domain\\review.Domain.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.domain\\constants\\productconst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9867BE34-0354-47BC-9EE5-E464596F884A}|review.Domain\\review.Domain.csproj|solutionrelative:review.domain\\constants\\productconst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9867BE34-0354-47BC-9EE5-E464596F884A}|review.Domain\\review.Domain.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.domain\\review.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9867BE34-0354-47BC-9EE5-E464596F884A}|review.Domain\\review.Domain.csproj|solutionrelative:review.domain\\review.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CC6471-FEBA-4768-BFEC-791C643EC6AA}|review.Persistence\\review.Persistence.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.persistence\\repositories\\base\\genericsqlrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CC6471-FEBA-4768-BFEC-791C643EC6AA}|review.Persistence\\review.Persistence.csproj|solutionrelative:review.persistence\\repositories\\base\\genericsqlrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CC6471-FEBA-4768-BFEC-791C643EC6AA}|review.Persistence\\review.Persistence.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.persistence\\repositories\\base\\sqlunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CC6471-FEBA-4768-BFEC-791C643EC6AA}|review.Persistence\\review.Persistence.csproj|solutionrelative:review.persistence\\repositories\\base\\sqlunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CC6471-FEBA-4768-BFEC-791C643EC6AA}|review.Persistence\\review.Persistence.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.persistence\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CC6471-FEBA-4768-BFEC-791C643EC6AA}|review.Persistence\\review.Persistence.csproj|solutionrelative:review.persistence\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF5D3C53-8F73-4001-AC5C-FE64B927C02D}|review.Contract\\review.Contract.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.contract\\validators\\validator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF5D3C53-8F73-4001-AC5C-FE64B927C02D}|review.Contract\\review.Contract.csproj|solutionrelative:review.contract\\validators\\validator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF5D3C53-8F73-4001-AC5C-FE64B927C02D}|review.Contract\\review.Contract.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.contract\\validators\\validationrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF5D3C53-8F73-4001-AC5C-FE64B927C02D}|review.Contract\\review.Contract.csproj|solutionrelative:review.contract\\validators\\validationrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF5D3C53-8F73-4001-AC5C-FE64B927C02D}|review.Contract\\review.Contract.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.contract\\validators\\validationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF5D3C53-8F73-4001-AC5C-FE64B927C02D}|review.Contract\\review.Contract.csproj|solutionrelative:review.contract\\validators\\validationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF5D3C53-8F73-4001-AC5C-FE64B927C02D}|review.Contract\\review.Contract.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.contract\\shared\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF5D3C53-8F73-4001-AC5C-FE64B927C02D}|review.Contract\\review.Contract.csproj|solutionrelative:review.contract\\shared\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF5D3C53-8F73-4001-AC5C-FE64B927C02D}|review.Contract\\review.Contract.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.contract\\exceptions\\customexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF5D3C53-8F73-4001-AC5C-FE64B927C02D}|review.Contract\\review.Contract.csproj|solutionrelative:review.contract\\exceptions\\customexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF5D3C53-8F73-4001-AC5C-FE64B927C02D}|review.Contract\\review.Contract.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.contract\\errors\\error.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF5D3C53-8F73-4001-AC5C-FE64B927C02D}|review.Contract\\review.Contract.csproj|solutionrelative:review.contract\\errors\\error.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF5D3C53-8F73-4001-AC5C-FE64B927C02D}|review.Contract\\review.Contract.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.contract\\enumerations\\validationmode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF5D3C53-8F73-4001-AC5C-FE64B927C02D}|review.Contract\\review.Contract.csproj|solutionrelative:review.contract\\enumerations\\validationmode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF5D3C53-8F73-4001-AC5C-FE64B927C02D}|review.Contract\\review.Contract.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.contract\\enumerations\\datatype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF5D3C53-8F73-4001-AC5C-FE64B927C02D}|review.Contract\\review.Contract.csproj|solutionrelative:review.contract\\enumerations\\datatype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF5D3C53-8F73-4001-AC5C-FE64B927C02D}|review.Contract\\review.Contract.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.contract\\dependencyinjection\\extensions\\validationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF5D3C53-8F73-4001-AC5C-FE64B927C02D}|review.Contract\\review.Contract.csproj|solutionrelative:review.contract\\dependencyinjection\\extensions\\validationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF5D3C53-8F73-4001-AC5C-FE64B927C02D}|review.Contract\\review.Contract.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.contract\\dependencyinjection\\extensions\\stringextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF5D3C53-8F73-4001-AC5C-FE64B927C02D}|review.Contract\\review.Contract.csproj|solutionrelative:review.contract\\dependencyinjection\\extensions\\stringextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF5D3C53-8F73-4001-AC5C-FE64B927C02D}|review.Contract\\review.Contract.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.contract\\dependencyinjection\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF5D3C53-8F73-4001-AC5C-FE64B927C02D}|review.Contract\\review.Contract.csproj|solutionrelative:review.contract\\dependencyinjection\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF5D3C53-8F73-4001-AC5C-FE64B927C02D}|review.Contract\\review.Contract.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.contract\\dependencyinjection\\extensions\\resultextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF5D3C53-8F73-4001-AC5C-FE64B927C02D}|review.Contract\\review.Contract.csproj|solutionrelative:review.contract\\dependencyinjection\\extensions\\resultextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF5D3C53-8F73-4001-AC5C-FE64B927C02D}|review.Contract\\review.Contract.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.contract\\dependencyinjection\\extensions\\entityextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF5D3C53-8F73-4001-AC5C-FE64B927C02D}|review.Contract\\review.Contract.csproj|solutionrelative:review.contract\\dependencyinjection\\extensions\\entityextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF5D3C53-8F73-4001-AC5C-FE64B927C02D}|review.Contract\\review.Contract.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.contract\\constants\\msgconst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF5D3C53-8F73-4001-AC5C-FE64B927C02D}|review.Contract\\review.Contract.csproj|solutionrelative:review.contract\\constants\\msgconst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF5D3C53-8F73-4001-AC5C-FE64B927C02D}|review.Contract\\review.Contract.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.contract\\abstractions\\iquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF5D3C53-8F73-4001-AC5C-FE64B927C02D}|review.Contract\\review.Contract.csproj|solutionrelative:review.contract\\abstractions\\iquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF5D3C53-8F73-4001-AC5C-FE64B927C02D}|review.Contract\\review.Contract.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.contract\\abstractions\\icommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF5D3C53-8F73-4001-AC5C-FE64B927C02D}|review.Contract\\review.Contract.csproj|solutionrelative:review.contract\\abstractions\\icommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF5D3C53-8F73-4001-AC5C-FE64B927C02D}|review.Contract\\review.Contract.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\review.contract\\constants\\regexconst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF5D3C53-8F73-4001-AC5C-FE64B927C02D}|review.Contract\\review.Contract.csproj|solutionrelative:review.contract\\constants\\regexconst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{036F63C8-6DC6-4C3F-B9D6-DDF6B24F0C23}|SOURCE-REVIEW\\SOURCE-REVIEW.csproj|D:\\THUCTAP2025\\SOURCE-REVIEW\\source-review\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{036F63C8-6DC6-4C3F-B9D6-DDF6B24F0C23}|SOURCE-REVIEW\\SOURCE-REVIEW.csproj|solutionrelative:source-review\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "admin_product_query.proto",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Presentation\\Protos\\Product\\admin_product_query.proto",
+              "RelativeDocumentMoniker": "review.Presentation\\Protos\\Product\\admin_product_query.proto",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Presentation\\Protos\\Product\\admin_product_query.proto",
+              "RelativeToolTip": "review.Presentation\\Protos\\Product\\admin_product_query.proto",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2025-02-12T08:36:15.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "user_product_command.proto",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Presentation\\Protos\\Product\\user_product_command.proto",
+              "RelativeDocumentMoniker": "review.Presentation\\Protos\\Product\\user_product_command.proto",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Presentation\\Protos\\Product\\user_product_command.proto",
+              "RelativeToolTip": "review.Presentation\\Protos\\Product\\user_product_command.proto",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2025-02-12T08:36:42.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "user_product_query.proto",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Presentation\\Protos\\Product\\user_product_query.proto",
+              "RelativeDocumentMoniker": "review.Presentation\\Protos\\Product\\user_product_query.proto",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Presentation\\Protos\\Product\\user_product_query.proto",
+              "RelativeToolTip": "review.Presentation\\Protos\\Product\\user_product_query.proto",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2025-02-12T08:37:52.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminProductCommandGrpcService.cs",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Presentation\\Services\\Product\\AdminProductCommandGrpcService.cs",
+              "RelativeDocumentMoniker": "review.Presentation\\Services\\Product\\AdminProductCommandGrpcService.cs",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Presentation\\Services\\Product\\AdminProductCommandGrpcService.cs",
+              "RelativeToolTip": "review.Presentation\\Services\\Product\\AdminProductCommandGrpcService.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAgwE8AAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T08:38:11.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "admin_product_command.proto",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Presentation\\Protos\\Product\\admin_product_command.proto",
+              "RelativeDocumentMoniker": "review.Presentation\\Protos\\Product\\admin_product_command.proto",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Presentation\\Protos\\Product\\admin_product_command.proto",
+              "RelativeToolTip": "review.Presentation\\Protos\\Product\\admin_product_command.proto",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2025-02-12T08:35:48.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminProductQueryGrpcService.cs",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Presentation\\Services\\Product\\AdminProductQueryGrpcService.cs",
+              "RelativeDocumentMoniker": "review.Presentation\\Services\\Product\\AdminProductQueryGrpcService.cs",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Presentation\\Services\\Product\\AdminProductQueryGrpcService.cs",
+              "RelativeToolTip": "review.Presentation\\Services\\Product\\AdminProductQueryGrpcService.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAYwEIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T08:44:24.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductConfig.cs",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Persistence\\Configurations\\ProductConfig.cs",
+              "RelativeDocumentMoniker": "review.Persistence\\Configurations\\ProductConfig.cs",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Persistence\\Configurations\\ProductConfig.cs",
+              "RelativeToolTip": "review.Persistence\\Configurations\\ProductConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T07:30:40.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EnvironmentHelper.cs",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Contract\\Helpers\\EnvironmentHelper.cs",
+              "RelativeDocumentMoniker": "review.Contract\\Helpers\\EnvironmentHelper.cs",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Contract\\Helpers\\EnvironmentHelper.cs",
+              "RelativeToolTip": "review.Contract\\Helpers\\EnvironmentHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T07:22:57.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "result.proto",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Contract\\Protos\\result.proto",
+              "RelativeDocumentMoniker": "review.Contract\\Protos\\result.proto",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Contract\\Protos\\result.proto",
+              "RelativeToolTip": "review.Contract\\Protos\\result.proto",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2025-02-12T07:23:14.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ServiceCollectionExtensions.cs",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Persistence\\DependencyInjection\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "review.Persistence\\DependencyInjection\\Extensions\\ServiceCollectionExtensions.cs",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Persistence\\DependencyInjection\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeToolTip": "review.Persistence\\DependencyInjection\\Extensions\\ServiceCollectionExtensions.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAwAkAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T07:30:47.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GetDetailProductValidator.cs",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.application\\Validators\\Product\\GetDetailProductValidator.cs",
+              "RelativeDocumentMoniker": "review.application\\Validators\\Product\\GetDetailProductValidator.cs",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.application\\Validators\\Product\\GetDetailProductValidator.cs",
+              "RelativeToolTip": "review.application\\Validators\\Product\\GetDetailProductValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T07:50:54.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DeleteProductValidator.cs",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.application\\Validators\\Product\\DeleteProductValidator.cs",
+              "RelativeDocumentMoniker": "review.application\\Validators\\Product\\DeleteProductValidator.cs",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.application\\Validators\\Product\\DeleteProductValidator.cs",
+              "RelativeToolTip": "review.application\\Validators\\Product\\DeleteProductValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T07:50:22.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CreateProductValidator.cs",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.application\\Validators\\Product\\CreateProductValidator.cs",
+              "RelativeDocumentMoniker": "review.application\\Validators\\Product\\CreateProductValidator.cs",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.application\\Validators\\Product\\CreateProductValidator.cs",
+              "RelativeToolTip": "review.application\\Validators\\Product\\CreateProductValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T07:47:57.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Const.cs",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Contract\\Constants\\Const.cs",
+              "RelativeDocumentMoniker": "review.Contract\\Constants\\Const.cs",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Contract\\Constants\\Const.cs",
+              "RelativeToolTip": "review.Contract\\Constants\\Const.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAAAcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T07:20:07.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DateFormat.cs",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Contract\\Constants\\DateFormat.cs",
+              "RelativeDocumentMoniker": "review.Contract\\Constants\\DateFormat.cs",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Contract\\Constants\\DateFormat.cs",
+              "RelativeToolTip": "review.Contract\\Constants\\DateFormat.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T07:20:17.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DeleteProductHandler.cs",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.application\\UserCases\\Product\\DeleteProductHandler.cs",
+              "RelativeDocumentMoniker": "review.application\\UserCases\\Product\\DeleteProductHandler.cs",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.application\\UserCases\\Product\\DeleteProductHandler.cs",
+              "RelativeToolTip": "review.application\\UserCases\\Product\\DeleteProductHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T07:53:53.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Domain\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "review.Domain\\Entities\\Product.cs",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Domain\\Entities\\Product.cs",
+              "RelativeToolTip": "review.Domain\\Entities\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBAAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T07:17:13.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CreateProductHandler.cs",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.application\\UserCases\\Product\\CreateProductHandler.cs",
+              "RelativeDocumentMoniker": "review.application\\UserCases\\Product\\CreateProductHandler.cs",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.application\\UserCases\\Product\\CreateProductHandler.cs",
+              "RelativeToolTip": "review.application\\UserCases\\Product\\CreateProductHandler.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAcwCwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T07:41:08.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EndpointExtensions.cs",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Presentation\\Extensions\\EndpointExtensions.cs",
+              "RelativeDocumentMoniker": "review.Presentation\\Extensions\\EndpointExtensions.cs",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Presentation\\Extensions\\EndpointExtensions.cs",
+              "RelativeToolTip": "review.Presentation\\Extensions\\EndpointExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T08:35:19.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ServiceCollectionExtensions.cs",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Presentation\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "review.Presentation\\Extensions\\ServiceCollectionExtensions.cs",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Presentation\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeToolTip": "review.Presentation\\Extensions\\ServiceCollectionExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T08:35:30.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ExceptionExtensions.cs",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Contract\\DependencyInjection\\Extensions\\ExceptionExtensions.cs",
+              "RelativeDocumentMoniker": "review.Contract\\DependencyInjection\\Extensions\\ExceptionExtensions.cs",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Contract\\DependencyInjection\\Extensions\\ExceptionExtensions.cs",
+              "RelativeToolTip": "review.Contract\\DependencyInjection\\Extensions\\ExceptionExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T07:20:56.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\SOURCE-REVIEW\\Program.cs",
+              "RelativeDocumentMoniker": "SOURCE-REVIEW\\Program.cs",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\SOURCE-REVIEW\\Program.cs",
+              "RelativeToolTip": "SOURCE-REVIEW\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T07:14:30.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ServiceCollectionExtensions.cs",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.application\\DependencyInjection\\Extension\\ServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "review.application\\DependencyInjection\\Extension\\ServiceCollectionExtensions.cs",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.application\\DependencyInjection\\Extension\\ServiceCollectionExtensions.cs",
+              "RelativeToolTip": "review.application\\DependencyInjection\\Extension\\ServiceCollectionExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T07:09:25.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UserProductQueryGrpcService.cs",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Presentation\\Services\\Product\\UserProductQueryGrpcService.cs",
+              "RelativeDocumentMoniker": "review.Presentation\\Services\\Product\\UserProductQueryGrpcService.cs",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Presentation\\Services\\Product\\UserProductQueryGrpcService.cs",
+              "RelativeToolTip": "review.Presentation\\Services\\Product\\UserProductQueryGrpcService.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwD4AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T08:43:53.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UserProductCommandGrpcService.cs",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Presentation\\Services\\Product\\UserProductCommandGrpcService.cs",
+              "RelativeDocumentMoniker": "review.Presentation\\Services\\Product\\UserProductCommandGrpcService.cs",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Presentation\\Services\\Product\\UserProductCommandGrpcService.cs",
+              "RelativeToolTip": "review.Presentation\\Services\\Product\\UserProductCommandGrpcService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADwAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T08:44:16.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "GetDetailProductQuery.cs",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.application\\Requests\\Product\\GetDetailProductQuery.cs",
+              "RelativeDocumentMoniker": "review.application\\Requests\\Product\\GetDetailProductQuery.cs",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.application\\Requests\\Product\\GetDetailProductQuery.cs",
+              "RelativeToolTip": "review.application\\Requests\\Product\\GetDetailProductQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T07:39:30.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "review.Presentation",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Presentation\\review.Presentation.csproj",
+              "RelativeDocumentMoniker": "review.Presentation\\review.Presentation.csproj",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Presentation\\review.Presentation.csproj",
+              "RelativeToolTip": "review.Presentation\\review.Presentation.csproj",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAlwCMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-12T08:34:12.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ProductSqlRepository.cs",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Persistence\\Repositories\\ProductSqlRepository.cs",
+              "RelativeDocumentMoniker": "review.Persistence\\Repositories\\ProductSqlRepository.cs",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Persistence\\Repositories\\ProductSqlRepository.cs",
+              "RelativeToolTip": "review.Persistence\\Repositories\\ProductSqlRepository.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAEwDEAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T07:31:15.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "GetAllProductsHandler.cs",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.application\\UserCases\\Product\\GetAllProductsHandler.cs",
+              "RelativeDocumentMoniker": "review.application\\UserCases\\Product\\GetAllProductsHandler.cs",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.application\\UserCases\\Product\\GetAllProductsHandler.cs",
+              "RelativeToolTip": "review.application\\UserCases\\Product\\GetAllProductsHandler.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAuwAoAAABqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T08:06:02.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "GetDetailProductHandler.cs",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.application\\UserCases\\Product\\GetDetailProductHandler.cs",
+              "RelativeDocumentMoniker": "review.application\\UserCases\\Product\\GetDetailProductHandler.cs",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.application\\UserCases\\Product\\GetDetailProductHandler.cs",
+              "RelativeToolTip": "review.application\\UserCases\\Product\\GetDetailProductHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T08:21:38.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "review.Persistence",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Persistence\\review.Persistence.csproj",
+              "RelativeDocumentMoniker": "review.Persistence\\review.Persistence.csproj",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Persistence\\review.Persistence.csproj",
+              "RelativeToolTip": "review.Persistence\\review.Persistence.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-12T07:32:03.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "review.Contract",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Contract\\review.Contract.csproj",
+              "RelativeDocumentMoniker": "review.Contract\\review.Contract.csproj",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Contract\\review.Contract.csproj",
+              "RelativeToolTip": "review.Contract\\review.Contract.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-12T07:29:12.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UpdateProductHandler.cs",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.application\\UserCases\\Product\\UpdateProductHandler.cs",
+              "RelativeDocumentMoniker": "review.application\\UserCases\\Product\\UpdateProductHandler.cs",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.application\\UserCases\\Product\\UpdateProductHandler.cs",
+              "RelativeToolTip": "review.application\\UserCases\\Product\\UpdateProductHandler.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAQwDoAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T08:21:27.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "UpdateProductCommand.cs",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.application\\Requests\\Product\\UpdateProductCommand.cs",
+              "RelativeDocumentMoniker": "review.application\\Requests\\Product\\UpdateProductCommand.cs",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.application\\Requests\\Product\\UpdateProductCommand.cs",
+              "RelativeToolTip": "review.application\\Requests\\Product\\UpdateProductCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T07:39:32.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "GetAllProductsQuery.cs",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.application\\Requests\\Product\\GetAllProductsQuery.cs",
+              "RelativeDocumentMoniker": "review.application\\Requests\\Product\\GetAllProductsQuery.cs",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.application\\Requests\\Product\\GetAllProductsQuery.cs",
+              "RelativeToolTip": "review.application\\Requests\\Product\\GetAllProductsQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T07:39:30.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "DeleteProductCommand.cs",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.application\\Requests\\Product\\DeleteProductCommand.cs",
+              "RelativeDocumentMoniker": "review.application\\Requests\\Product\\DeleteProductCommand.cs",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.application\\Requests\\Product\\DeleteProductCommand.cs",
+              "RelativeToolTip": "review.application\\Requests\\Product\\DeleteProductCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T07:39:29.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "CreateProductCommand.cs",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.application\\Requests\\Product\\CreateProductCommand.cs",
+              "RelativeDocumentMoniker": "review.application\\Requests\\Product\\CreateProductCommand.cs",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.application\\Requests\\Product\\CreateProductCommand.cs",
+              "RelativeToolTip": "review.application\\Requests\\Product\\CreateProductCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T07:39:09.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "MsgCode.cs",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Contract\\Enumerations\\MsgCode.cs",
+              "RelativeDocumentMoniker": "review.Contract\\Enumerations\\MsgCode.cs",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Contract\\Enumerations\\MsgCode.cs",
+              "RelativeToolTip": "review.Contract\\Enumerations\\MsgCode.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAWwBQAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T07:21:43.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "IProductSqlRepository.cs",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Domain\\Abstractions\\Repositories\\Sql\\IProductSqlRepository.cs",
+              "RelativeDocumentMoniker": "review.Domain\\Abstractions\\Repositories\\Sql\\IProductSqlRepository.cs",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Domain\\Abstractions\\Repositories\\Sql\\IProductSqlRepository.cs",
+              "RelativeToolTip": "review.Domain\\Abstractions\\Repositories\\Sql\\IProductSqlRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T07:34:40.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ISqlUnitOfWork.cs",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Domain\\Abstractions\\Repositories\\Sql\\Base\\ISqlUnitOfWork.cs",
+              "RelativeDocumentMoniker": "review.Domain\\Abstractions\\Repositories\\Sql\\Base\\ISqlUnitOfWork.cs",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Domain\\Abstractions\\Repositories\\Sql\\Base\\ISqlUnitOfWork.cs",
+              "RelativeToolTip": "review.Domain\\Abstractions\\Repositories\\Sql\\Base\\ISqlUnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T07:35:49.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "IGenericSqlRepository.cs",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Domain\\Abstractions\\Repositories\\Sql\\Base\\IGenericSqlRepository.cs",
+              "RelativeDocumentMoniker": "review.Domain\\Abstractions\\Repositories\\Sql\\Base\\IGenericSqlRepository.cs",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Domain\\Abstractions\\Repositories\\Sql\\Base\\IGenericSqlRepository.cs",
+              "RelativeToolTip": "review.Domain\\Abstractions\\Repositories\\Sql\\Base\\IGenericSqlRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T07:34:58.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "IEntity.cs",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Domain\\Abstractions\\Entities\\IEntity.cs",
+              "RelativeDocumentMoniker": "review.Domain\\Abstractions\\Entities\\IEntity.cs",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Domain\\Abstractions\\Entities\\IEntity.cs",
+              "RelativeToolTip": "review.Domain\\Abstractions\\Entities\\IEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T07:16:37.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Entity.cs",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Domain\\Abstractions\\Entities\\Entity.cs",
+              "RelativeDocumentMoniker": "review.Domain\\Abstractions\\Entities\\Entity.cs",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Domain\\Abstractions\\Entities\\Entity.cs",
+              "RelativeToolTip": "review.Domain\\Abstractions\\Entities\\Entity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T07:16:24.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "IAggregateRoot.cs",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Domain\\Abstractions\\Aggregates\\IAggregateRoot.cs",
+              "RelativeDocumentMoniker": "review.Domain\\Abstractions\\Aggregates\\IAggregateRoot.cs",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Domain\\Abstractions\\Aggregates\\IAggregateRoot.cs",
+              "RelativeToolTip": "review.Domain\\Abstractions\\Aggregates\\IAggregateRoot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T07:16:12.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "AggregateRoot.cs",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Domain\\Abstractions\\Aggregates\\AggregateRoot.cs",
+              "RelativeDocumentMoniker": "review.Domain\\Abstractions\\Aggregates\\AggregateRoot.cs",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Domain\\Abstractions\\Aggregates\\AggregateRoot.cs",
+              "RelativeToolTip": "review.Domain\\Abstractions\\Aggregates\\AggregateRoot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T07:16:05.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "UpdateProductValidator.cs",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.application\\Validators\\Product\\UpdateProductValidator.cs",
+              "RelativeDocumentMoniker": "review.application\\Validators\\Product\\UpdateProductValidator.cs",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.application\\Validators\\Product\\UpdateProductValidator.cs",
+              "RelativeToolTip": "review.application\\Validators\\Product\\UpdateProductValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T07:51:15.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ProductConst.cs",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Domain\\Constants\\ProductConst.cs",
+              "RelativeDocumentMoniker": "review.Domain\\Constants\\ProductConst.cs",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Domain\\Constants\\ProductConst.cs",
+              "RelativeToolTip": "review.Domain\\Constants\\ProductConst.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T07:16:51.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "review.Domain",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Domain\\review.Domain.csproj",
+              "RelativeDocumentMoniker": "review.Domain\\review.Domain.csproj",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Domain\\review.Domain.csproj",
+              "RelativeToolTip": "review.Domain\\review.Domain.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-12T08:12:55.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "GenericSqlRepository.cs",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Persistence\\Repositories\\Base\\GenericSqlRepository.cs",
+              "RelativeDocumentMoniker": "review.Persistence\\Repositories\\Base\\GenericSqlRepository.cs",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Persistence\\Repositories\\Base\\GenericSqlRepository.cs",
+              "RelativeToolTip": "review.Persistence\\Repositories\\Base\\GenericSqlRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T07:30:58.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "SqlUnitOfWork.cs",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Persistence\\Repositories\\Base\\SqlUnitOfWork.cs",
+              "RelativeDocumentMoniker": "review.Persistence\\Repositories\\Base\\SqlUnitOfWork.cs",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Persistence\\Repositories\\Base\\SqlUnitOfWork.cs",
+              "RelativeToolTip": "review.Persistence\\Repositories\\Base\\SqlUnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T07:31:04.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Persistence\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "review.Persistence\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Persistence\\ApplicationDbContext.cs",
+              "RelativeToolTip": "review.Persistence\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T07:31:26.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "CustomException.cs",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Contract\\Exceptions\\CustomException.cs",
+              "RelativeDocumentMoniker": "review.Contract\\Exceptions\\CustomException.cs",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Contract\\Exceptions\\CustomException.cs",
+              "RelativeToolTip": "review.Contract\\Exceptions\\CustomException.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwAUAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T07:22:52.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Result.cs",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Contract\\Shared\\Result.cs",
+              "RelativeDocumentMoniker": "review.Contract\\Shared\\Result.cs",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Contract\\Shared\\Result.cs",
+              "RelativeToolTip": "review.Contract\\Shared\\Result.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T07:23:21.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "ValidationResult.cs",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Contract\\Validators\\ValidationResult.cs",
+              "RelativeDocumentMoniker": "review.Contract\\Validators\\ValidationResult.cs",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Contract\\Validators\\ValidationResult.cs",
+              "RelativeToolTip": "review.Contract\\Validators\\ValidationResult.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwAIAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T07:23:28.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "ValidationRule.cs",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Contract\\Validators\\ValidationRule.cs",
+              "RelativeDocumentMoniker": "review.Contract\\Validators\\ValidationRule.cs",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Contract\\Validators\\ValidationRule.cs",
+              "RelativeToolTip": "review.Contract\\Validators\\ValidationRule.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwAUAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T07:23:40.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Validator.cs",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Contract\\Validators\\Validator.cs",
+              "RelativeDocumentMoniker": "review.Contract\\Validators\\Validator.cs",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Contract\\Validators\\Validator.cs",
+              "RelativeToolTip": "review.Contract\\Validators\\Validator.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAQwAUAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T07:23:49.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Error.cs",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Contract\\Errors\\Error.cs",
+              "RelativeDocumentMoniker": "review.Contract\\Errors\\Error.cs",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Contract\\Errors\\Error.cs",
+              "RelativeToolTip": "review.Contract\\Errors\\Error.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwAAAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T07:22:44.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "ValidationMode.cs",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Contract\\Enumerations\\ValidationMode.cs",
+              "RelativeDocumentMoniker": "review.Contract\\Enumerations\\ValidationMode.cs",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Contract\\Enumerations\\ValidationMode.cs",
+              "RelativeToolTip": "review.Contract\\Enumerations\\ValidationMode.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T07:21:50.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "DataType.cs",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Contract\\Enumerations\\DataType.cs",
+              "RelativeDocumentMoniker": "review.Contract\\Enumerations\\DataType.cs",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Contract\\Enumerations\\DataType.cs",
+              "RelativeToolTip": "review.Contract\\Enumerations\\DataType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T07:21:36.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "ValidationExtensions.cs",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Contract\\DependencyInjection\\Extensions\\ValidationExtensions.cs",
+              "RelativeDocumentMoniker": "review.Contract\\DependencyInjection\\Extensions\\ValidationExtensions.cs",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Contract\\DependencyInjection\\Extensions\\ValidationExtensions.cs",
+              "RelativeToolTip": "review.Contract\\DependencyInjection\\Extensions\\ValidationExtensions.cs",
+              "ViewState": "AQIAABcBAAAAAAAAAAAYwB4BAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T07:21:27.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "StringExtensions.cs",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Contract\\DependencyInjection\\Extensions\\StringExtensions.cs",
+              "RelativeDocumentMoniker": "review.Contract\\DependencyInjection\\Extensions\\StringExtensions.cs",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Contract\\DependencyInjection\\Extensions\\StringExtensions.cs",
+              "RelativeToolTip": "review.Contract\\DependencyInjection\\Extensions\\StringExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T07:21:20.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "ServiceCollectionExtensions.cs",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Contract\\DependencyInjection\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "review.Contract\\DependencyInjection\\Extensions\\ServiceCollectionExtensions.cs",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Contract\\DependencyInjection\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeToolTip": "review.Contract\\DependencyInjection\\Extensions\\ServiceCollectionExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T07:21:11.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "ResultExtensions.cs",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Contract\\DependencyInjection\\Extensions\\ResultExtensions.cs",
+              "RelativeDocumentMoniker": "review.Contract\\DependencyInjection\\Extensions\\ResultExtensions.cs",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Contract\\DependencyInjection\\Extensions\\ResultExtensions.cs",
+              "RelativeToolTip": "review.Contract\\DependencyInjection\\Extensions\\ResultExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T07:21:04.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "EntityExtensions.cs",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Contract\\DependencyInjection\\Extensions\\EntityExtensions.cs",
+              "RelativeDocumentMoniker": "review.Contract\\DependencyInjection\\Extensions\\EntityExtensions.cs",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Contract\\DependencyInjection\\Extensions\\EntityExtensions.cs",
+              "RelativeToolTip": "review.Contract\\DependencyInjection\\Extensions\\EntityExtensions.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAYwAgAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T07:20:44.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "MsgConst.cs",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Contract\\Constants\\MsgConst.cs",
+              "RelativeDocumentMoniker": "review.Contract\\Constants\\MsgConst.cs",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Contract\\Constants\\MsgConst.cs",
+              "RelativeToolTip": "review.Contract\\Constants\\MsgConst.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T07:20:22.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "IQuery.cs",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Contract\\Abstractions\\IQuery.cs",
+              "RelativeDocumentMoniker": "review.Contract\\Abstractions\\IQuery.cs",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Contract\\Abstractions\\IQuery.cs",
+              "RelativeToolTip": "review.Contract\\Abstractions\\IQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T07:19:59.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "ICommand.cs",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Contract\\Abstractions\\ICommand.cs",
+              "RelativeDocumentMoniker": "review.Contract\\Abstractions\\ICommand.cs",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Contract\\Abstractions\\ICommand.cs",
+              "RelativeToolTip": "review.Contract\\Abstractions\\ICommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T07:19:46.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "RegexConst.cs",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Contract\\Constants\\RegexConst.cs",
+              "RelativeDocumentMoniker": "review.Contract\\Constants\\RegexConst.cs",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\review.Contract\\Constants\\RegexConst.cs",
+              "RelativeToolTip": "review.Contract\\Constants\\RegexConst.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T07:20:30.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\THUCTAP2025\\SOURCE-REVIEW\\SOURCE-REVIEW\\appsettings.json",
+              "RelativeDocumentMoniker": "SOURCE-REVIEW\\appsettings.json",
+              "ToolTip": "D:\\THUCTAP2025\\SOURCE-REVIEW\\SOURCE-REVIEW\\appsettings.json",
+              "RelativeToolTip": "SOURCE-REVIEW\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-12T07:14:00.028Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

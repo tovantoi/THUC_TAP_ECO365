@@ -1,0 +1,13 @@
+D:\THUCTAP2025\SOURCE-REVIEW\review.Contract\bin\Debug\net8.0\review.Contract.deps.json
+D:\THUCTAP2025\SOURCE-REVIEW\review.Contract\bin\Debug\net8.0\review.Contract.dll
+D:\THUCTAP2025\SOURCE-REVIEW\review.Contract\bin\Debug\net8.0\review.Contract.pdb
+D:\THUCTAP2025\SOURCE-REVIEW\review.Contract\obj\Debug\net8.0\review.Contract.csproj.AssemblyReference.cache
+D:\THUCTAP2025\SOURCE-REVIEW\review.Contract\obj\Debug\net8.0\review.Contract.GeneratedMSBuildEditorConfig.editorconfig
+D:\THUCTAP2025\SOURCE-REVIEW\review.Contract\obj\Debug\net8.0\review.Contract.AssemblyInfoInputs.cache
+D:\THUCTAP2025\SOURCE-REVIEW\review.Contract\obj\Debug\net8.0\review.Contract.AssemblyInfo.cs
+D:\THUCTAP2025\SOURCE-REVIEW\review.Contract\obj\Debug\net8.0\review.Contract.csproj.CoreCompileInputs.cache
+D:\THUCTAP2025\SOURCE-REVIEW\review.Contract\obj\Debug\net8.0\review.Contract.sourcelink.json
+D:\THUCTAP2025\SOURCE-REVIEW\review.Contract\obj\Debug\net8.0\review.Contract.dll
+D:\THUCTAP2025\SOURCE-REVIEW\review.Contract\obj\Debug\net8.0\refint\review.Contract.dll
+D:\THUCTAP2025\SOURCE-REVIEW\review.Contract\obj\Debug\net8.0\review.Contract.pdb
+D:\THUCTAP2025\SOURCE-REVIEW\review.Contract\obj\Debug\net8.0\ref\review.Contract.dll

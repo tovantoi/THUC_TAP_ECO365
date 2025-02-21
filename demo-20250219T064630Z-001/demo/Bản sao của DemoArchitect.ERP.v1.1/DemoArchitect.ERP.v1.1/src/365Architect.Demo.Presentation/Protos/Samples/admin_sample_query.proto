@@ -1,0 +1,16 @@
+﻿syntax = "proto3";
+import "result.proto";
+import "google/protobuf/wrappers.proto";
+package AdminSample;
+
+service AdminSampleQuery {
+    rpc GetSample(GetSampleRequest) returns (CommonResult);
+    rpc GetAllSamples(GetAllSamplesRequest) returns (CommonResult);
+}
+
+message GetSampleRequest{
+    optional google.protobuf.Int32Value Id = 1;
+}
+message GetAllSamplesRequest {
+}
+

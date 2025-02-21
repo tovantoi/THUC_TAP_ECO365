@@ -1,0 +1,14 @@
+﻿syntax = "proto3";
+option csharp_namespace = "ProtoResult";
+message CommonResult {
+    int32 statusCode = 1;
+    bool isSuccess = 2;
+    optional string data = 3;
+    optional string dataType = 4;
+    optional string messageCode = 5;
+    optional Error error = 6;
+}
+message Error{
+    repeated string details = 1;
+    string stackTrace = 2;
+}

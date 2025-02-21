@@ -1,0 +1,16 @@
+﻿syntax = "proto3";
+import "result.proto";
+import "google/protobuf/wrappers.proto";
+package UserProduct;
+
+service UserProductQuery {
+    rpc GetProduct(GetProductRequest) returns (CommonResult);
+    rpc GetAllProducts(GetAllProductsRequest) returns (CommonResult);
+}
+
+message GetProductRequest{
+    optional google.protobuf.Int32Value Id = 1;
+}
+message GetAllProductsRequest {
+}
+

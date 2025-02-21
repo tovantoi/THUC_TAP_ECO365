@@ -1,0 +1,27 @@
+﻿syntax = "proto3";
+import "google/protobuf/timestamp.proto";
+import "google/protobuf/wrappers.proto";
+import "result.proto";
+
+package UserSample;
+
+service UserSampleCommand {
+  rpc CreateSample(CreateSampleRequest) returns (CommonResult);
+  rpc UpdateSample(UpdateSampleRequest) returns (CommonResult);
+  rpc DeleteSample(DeleteSampleRequest) returns (CommonResult);
+}
+message CreateSampleRequest{
+	optional google.protobuf.StringValue Title = 1;
+    optional google.protobuf.StringValue Description = 2;
+    optional google.protobuf.Timestamp DueDate = 3;
+}
+message UpdateSampleRequest{
+	optional google.protobuf.Int32Value Id = 1;
+	optional google.protobuf.StringValue Title = 2;
+    optional google.protobuf.StringValue Description = 3;
+    optional google.protobuf.Timestamp DueDate = 4;
+}
+message DeleteSampleRequest{
+	optional google.protobuf.Int32Value Id = 1;
+}
+

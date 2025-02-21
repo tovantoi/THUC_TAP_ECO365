@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Protos\Products\**" />
+    <EmbeddedResource Remove="Protos\Products\**" />
+    <None Remove="Protos\Products\**" />
+  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Grpc.AspNetCore" Version="2.63.0" />
+		<PackageReference Include="Grpc.AspNetCore.Server.Reflection" Version="2.63.0" />
+		<PackageReference Include="Grpc.AspNetCore.Web" Version="2.65.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
+	<ItemGroup>
+		<!-- product query -->
+		<Protobuf Include="Protos\Product\admin_product_query.proto" GrpcServices="Server" ProtoRoot="Protos\" AdditionalImportDirs="..\review.Contract\Protos\" />
+		<Protobuf Include="Protos\Product\user_product_query.proto" GrpcServices="Server" ProtoRoot="Protos\" AdditionalImportDirs="..\review.Contract\Protos\" />
+		<!-- product command -->
+		<Protobuf Include="Protos\Product\user_product_command.proto" GrpcServices="Server" ProtoRoot="Protos\" AdditionalImportDirs="..\review.Contract\Protos\" />
+		<Protobuf Include="Protos\Product\admin_product_command.proto" GrpcServices="Server" ProtoRoot="Protos\" AdditionalImportDirs="..\review.Contract\Protos\" />
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\review.application\review.application.csproj" />
+	  <ProjectReference Include="..\review.Infrastructure\review.Infrastructure.csproj" />
+	</ItemGroup>
+</Project>

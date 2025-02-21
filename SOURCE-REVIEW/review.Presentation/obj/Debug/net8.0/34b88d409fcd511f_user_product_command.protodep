@@ -1,0 +1,5 @@
+obj\Debug\net8.0\product/UserProductCommand.cs \
+obj\Debug\net8.0\product/UserProductCommandGrpc.cs: C:/Users/tovan/.nuget/packages/grpc.tools/2.63.0/build/native/include/google/protobuf/timestamp.proto\
+ C:/Users/tovan/.nuget/packages/grpc.tools/2.63.0/build/native/include/google/protobuf/wrappers.proto\
+ ../review.Contract/Protos/result.proto\
+ Protos/Product/user_product_command.proto

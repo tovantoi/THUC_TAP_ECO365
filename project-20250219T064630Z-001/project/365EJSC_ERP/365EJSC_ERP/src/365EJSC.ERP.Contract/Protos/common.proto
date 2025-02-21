@@ -1,0 +1,13 @@
+﻿syntax = "proto3";
+option csharp_namespace = "CommonProto";
+import "google/protobuf/wrappers.proto";
+
+message SkipTakeOption {
+	google.protobuf.Int32Value Skip = 1;
+	google.protobuf.Int32Value Take = 2;
+}
+
+message PagingOption {
+	google.protobuf.Int32Value PageNumber = 1;
+	google.protobuf.Int32Value PageSize = 2;
+}

@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>_365Architect.Demo.Presentation</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+	
+	<ItemGroup>
+		<PackageReference Include="Grpc.AspNetCore" Version="2.63.0" />
+		<PackageReference Include="Grpc.AspNetCore.Server.Reflection" Version="2.63.0" />
+		<PackageReference Include="Grpc.AspNetCore.Web" Version="2.65.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
+	<ItemGroup>
+		<!-- Sample query -->
+		<Protobuf Include="Protos\Samples\admin_sample_query.proto" GrpcServices="Server" ProtoRoot="Protos\" AdditionalImportDirs="..\365Architect.Demo.Contract\Protos\" />
+		<Protobuf Include="Protos\Samples\user_sample_query.proto" GrpcServices="Server" ProtoRoot="Protos\" AdditionalImportDirs="..\365Architect.Demo.Contract\Protos\" />
+		<!-- Sample command -->
+		<Protobuf Include="Protos\Samples\user_sample_command.proto" GrpcServices="Server" ProtoRoot="Protos\" AdditionalImportDirs="..\365Architect.Demo.Contract\Protos\" />
+		<Protobuf Include="Protos\Samples\admin_sample_command.proto" GrpcServices="Server" ProtoRoot="Protos\" AdditionalImportDirs="..\365Architect.Demo.Contract\Protos\" />
+	</ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\365Architect.Demo.Application\365Architect.Demo.Application.csproj" />
+    <ProjectReference Include="..\365Architect.Demo.Infrastructure\365Architect.Demo.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

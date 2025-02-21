@@ -1,0 +1,16 @@
+D:\THUCTAP2025\SOURCE-REVIEW\review.Domain\bin\Debug\net8.0\review.Domain.deps.json
+D:\THUCTAP2025\SOURCE-REVIEW\review.Domain\bin\Debug\net8.0\review.Domain.dll
+D:\THUCTAP2025\SOURCE-REVIEW\review.Domain\bin\Debug\net8.0\review.Domain.pdb
+D:\THUCTAP2025\SOURCE-REVIEW\review.Domain\bin\Debug\net8.0\review.Contract.dll
+D:\THUCTAP2025\SOURCE-REVIEW\review.Domain\bin\Debug\net8.0\review.Contract.pdb
+D:\THUCTAP2025\SOURCE-REVIEW\review.Domain\obj\Debug\net8.0\review.Domain.csproj.AssemblyReference.cache
+D:\THUCTAP2025\SOURCE-REVIEW\review.Domain\obj\Debug\net8.0\review.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\THUCTAP2025\SOURCE-REVIEW\review.Domain\obj\Debug\net8.0\review.Domain.AssemblyInfoInputs.cache
+D:\THUCTAP2025\SOURCE-REVIEW\review.Domain\obj\Debug\net8.0\review.Domain.AssemblyInfo.cs
+D:\THUCTAP2025\SOURCE-REVIEW\review.Domain\obj\Debug\net8.0\review.Domain.csproj.CoreCompileInputs.cache
+D:\THUCTAP2025\SOURCE-REVIEW\review.Domain\obj\Debug\net8.0\review.Domain.sourcelink.json
+D:\THUCTAP2025\SOURCE-REVIEW\review.Domain\obj\Debug\net8.0\review.D.220B904A.Up2Date
+D:\THUCTAP2025\SOURCE-REVIEW\review.Domain\obj\Debug\net8.0\review.Domain.dll
+D:\THUCTAP2025\SOURCE-REVIEW\review.Domain\obj\Debug\net8.0\refint\review.Domain.dll
+D:\THUCTAP2025\SOURCE-REVIEW\review.Domain\obj\Debug\net8.0\review.Domain.pdb
+D:\THUCTAP2025\SOURCE-REVIEW\review.Domain\obj\Debug\net8.0\ref\review.Domain.dll

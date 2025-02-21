@@ -1,0 +1,4 @@
+obj\Debug\net8.0\product/AdminProductQuery.cs \
+obj\Debug\net8.0\product/AdminProductQueryGrpc.cs: ../review.Contract/Protos/result.proto\
+ C:/Users/tovan/.nuget/packages/grpc.tools/2.63.0/build/native/include/google/protobuf/wrappers.proto\
+ Protos/Product/admin_product_query.proto
