@@ -13,7 +13,7 @@ namespace _365EJSC.ERP.Domain.Entities.Define
         public double Longitude { get; set; }
         public int DistrictId { get; set; }
         [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
-        public WebLocalDictrict? WebsiteLocalizationDictrict { get; set; }
+        public WebLocalDistrict? WebLocalDistrict { get; set; }
 
     }
 }

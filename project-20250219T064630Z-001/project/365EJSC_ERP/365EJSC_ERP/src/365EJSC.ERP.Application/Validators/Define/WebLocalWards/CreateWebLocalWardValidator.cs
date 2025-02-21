@@ -11,19 +11,19 @@ namespace _365EJSC.ERP.Application.Validators.Define.WebLocalWards
         public CreateWebLocalWardValidator()
         {
             WithValidator(MsgCode.ERR_WARD_INVALID);
-            RuleFor(x => x.Name).NotNull()!.NotEmpty().MaxLength(WebLocalWardConstants.MAX_LENGTH_NAME);
+            RuleFor(x => x.Name).NotNull()!.NotEmpty().MaxLength(WebLocalWardConst.MAX_LENGTH_NAME);
 
-            RuleFor(x => x.NameEn).NotNull()!.NotEmpty().MaxLength(WebLocalWardConstants.MAX_LENGTH_NAME_EN);
+            RuleFor(x => x.NameEn).NotNull()!.NotEmpty().MaxLength(WebLocalWardConst.MAX_LENGTH_NAME_EN);
 
-            RuleFor(x => x.FullName).NotNull()!.NotEmpty().MaxLength(WebLocalWardConstants.MAX_LENGTH_FULL_NAME);
+            RuleFor(x => x.FullName).NotNull()!.NotEmpty().MaxLength(WebLocalWardConst.MAX_LENGTH_FULL_NAME);
 
-            RuleFor(x => x.FullNameEn).NotNull()!.NotEmpty().MaxLength(WebLocalWardConstants.MAX_LENGTH_FULL_NAME_EN);
+            RuleFor(x => x.FullNameEn).NotNull()!.NotEmpty().MaxLength(WebLocalWardConst.MAX_LENGTH_FULL_NAME_EN);
 
-            RuleFor(x => x.Latitude).NotNull().GreaterThan(0);
+            RuleFor(x => x.Latitude).NotNull();
 
-            RuleFor(x => x.Longitude).NotNull().GreaterThan(0);
+            RuleFor(x => x.Longitude).NotNull();
 
-            RuleFor(x => x.DistrictId).NotNull().GreaterThan(0);
+            RuleFor(x => x.DistrictId).NotNull();
         }
     }
 }

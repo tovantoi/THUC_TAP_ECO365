@@ -35,7 +35,7 @@ namespace _365EJSC.ERP.Persistence.DependencyInjection.Extensions
             services.AddScoped(typeof(IGenericSqlRepository<,>), typeof(GenericSqlRepository<,>));
             services.AddScoped<ISqlUnitOfWork, SqlUnitOfWork>();
             services.AddScoped<IWebLocalWardSqlRepository, WebLocalWardSqlRepository>();
-            services.AddScoped<IWebLocalDictrictSqlRepository, WebLocalDictrictSqlRepository>();
+            services.AddScoped<IWebLocalDistrictSqlRepository, WebLocalDistrictSqlRepository>();
             return services;
         }
     }

@@ -14,7 +14,7 @@ namespace _365EJSC.ERP.Contract.Enumerations
         /// Sample with id provided was not found
         /// </summary>
         ERR_WARD_ID_NOT_FOUND,
-        ERR_DICTRICT_ID_NOT_FOUND,
+        ERR_DISTRICT_ID_NOT_FOUND,
 
         /// <summary>
         /// Sample request is invalid

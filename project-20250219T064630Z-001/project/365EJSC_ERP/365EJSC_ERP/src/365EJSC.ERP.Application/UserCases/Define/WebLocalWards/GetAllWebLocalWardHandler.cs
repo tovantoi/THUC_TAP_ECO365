@@ -1,6 +1,7 @@
 ﻿using _365EJSC.ERP.Application.Requests.Define.WebLocalWards;
 using _365EJSC.ERP.Contract.Shared;
 using _365EJSC.ERP.Domain.Abstractions.Repositories.Sql;
+using _365EJSC.ERP.Domain.Abstractions.Repositories.Sql.Base;
 using _365EJSC.ERP.Domain.Entities.Define;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
@@ -10,9 +11,9 @@ namespace _365EJSC.ERP.Application.UserCases.Define.WebLocalWards
     public class GetAllWebLocalWardHandler : IRequestHandler<GetAllWebLocalWardRequest, Result<List<WebLocalWard>>>
     {
         private readonly IWebLocalWardSqlRepository wardSqlRepository;
-        private readonly IWebLocalDictrictSqlRepository districtSqlRepository;
+        private readonly IWebLocalDistrictSqlRepository districtSqlRepository;
 
-        public GetAllWebLocalWardHandler(IWebLocalWardSqlRepository wardSqlRepository, IWebLocalDictrictSqlRepository districtSqlRepository)
+        public GetAllWebLocalWardHandler(IWebLocalWardSqlRepository wardSqlRepository, IWebLocalDistrictSqlRepository districtSqlRepository)
         {
             this.wardSqlRepository = wardSqlRepository;
             this.districtSqlRepository = districtSqlRepository;
@@ -37,7 +38,7 @@ namespace _365EJSC.ERP.Application.UserCases.Define.WebLocalWards
             {
                 if (districtDict.TryGetValue(ward.DistrictId, out var district))
                 {
-                    ward.WebsiteLocalizationDictrict = district;
+                    ward.WebLocalDistrict = district;
                 }
             }
 

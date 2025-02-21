@@ -3,6 +3,7 @@ using _365EJSC.ERP.Application.Validators.Define.WebLocalWards;
 using _365EJSC.ERP.Contract.Enumerations;
 using _365EJSC.ERP.Contract.Shared;
 using _365EJSC.ERP.Domain.Abstractions.Repositories.Sql;
+using _365EJSC.ERP.Domain.Abstractions.Repositories.Sql.Base;
 using _365EJSC.ERP.Domain.Entities.Define;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
@@ -13,9 +14,9 @@ namespace _365EJSC.ERP.Application.UserCases.Define.WebLocalWards
     public class GetDetailWebLocalWardHandler : IRequestHandler<GetDetailWebLocalWardRequest, Result<WebLocalWard>>
     {
         private readonly IWebLocalWardSqlRepository wardSqlRepository;
-        private readonly IWebLocalDictrictSqlRepository districtSqlRepository;
+        private readonly IWebLocalDistrictSqlRepository districtSqlRepository;
 
-        public GetDetailWebLocalWardHandler(IWebLocalWardSqlRepository wardSqlRepository, IWebLocalDictrictSqlRepository districtSqlRepository)
+        public GetDetailWebLocalWardHandler(IWebLocalWardSqlRepository wardSqlRepository, IWebLocalDistrictSqlRepository districtSqlRepository)
         {
             this.wardSqlRepository = wardSqlRepository;
             this.districtSqlRepository = districtSqlRepository;
@@ -29,7 +30,7 @@ namespace _365EJSC.ERP.Application.UserCases.Define.WebLocalWards
 
             var ward = await wardSqlRepository
                 .FindAll(w => w.Id == request.Id)
-                .Include(w => w.WebsiteLocalizationDictrict) 
+                .Include(w => w.WebLocalDistrict) 
                 .FirstOrDefaultAsync(cancellationToken);
 
 

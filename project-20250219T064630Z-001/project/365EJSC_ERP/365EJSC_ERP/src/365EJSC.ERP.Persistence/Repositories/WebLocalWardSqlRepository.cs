@@ -32,7 +32,7 @@ namespace _365EJSC.ERP.Persistence.Repositories
 
             // Throw not found exception when sample is null
             if (ward is null)
-                CustomException.ThrowNotFoundException(typeof(WebLocalWard), MsgCode.ERR_WARD_ID_NOT_FOUND, WebLocalWardConstants.MSG_WARD_ID_NOT_FOUND);
+                CustomException.ThrowNotFoundException(typeof(WebLocalWard), MsgCode.ERR_WARD_ID_NOT_FOUND, WebLocalWardConst.MSG_WARD_ID_NOT_FOUND);
 
             // Return founded sample
             return ward;

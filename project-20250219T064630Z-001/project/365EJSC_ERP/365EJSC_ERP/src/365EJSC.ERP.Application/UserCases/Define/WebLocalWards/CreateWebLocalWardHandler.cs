@@ -17,11 +17,11 @@ namespace _365EJSC.ERP.Application.UserCases.Define.WebLocalWards
     public class CreateWebLocalWardHandler : IRequestHandler<CreateWebLocalWardRequest, Result<object>>
     {
         private readonly IWebLocalWardSqlRepository wardSqlRepository;
-        private readonly IWebLocalDictrictSqlRepository dictrictSqlRepository;
+        private readonly IWebLocalDistrictSqlRepository dictrictSqlRepository;
 
         private readonly ISqlUnitOfWork sqlUnitOfWork;
 
-        public CreateWebLocalWardHandler(IWebLocalWardSqlRepository wardSqlRepository, ISqlUnitOfWork sqlUnitOfWork, IWebLocalDictrictSqlRepository dictrictSqlRepository)
+        public CreateWebLocalWardHandler(IWebLocalWardSqlRepository wardSqlRepository, ISqlUnitOfWork sqlUnitOfWork, IWebLocalDistrictSqlRepository dictrictSqlRepository)
         {
             this.wardSqlRepository = wardSqlRepository;
             this.sqlUnitOfWork = sqlUnitOfWork;
@@ -40,8 +40,8 @@ namespace _365EJSC.ERP.Application.UserCases.Define.WebLocalWards
                 var dictrictIdExists = await dictrictSqlRepository.IsExistAsync(x => x.Id == request.DistrictId);
                 if (!dictrictIdExists)
                 {
-                    var errorMessage = MsgConst.NOT_FOUND_FIND_KEY.FormatMsg(WebLocalWardConstants.FIELD_DISTRICT_ID);
-                    CustomException.ThrowNotFoundException(typeof(WebLocalWard), MsgCode.ERR_DICTRICT_ID_NOT_FOUND, errorMessage);
+                    var errorMessage = MsgConst.NOT_FOUND_FIND_KEY.FormatMsg(WebLocalWardConst.FIELD_DISTRICT_ID);
+                    CustomException.ThrowNotFoundException(typeof(WebLocalWard), MsgCode.ERR_DISTRICT_ID_NOT_FOUND, errorMessage);
                 }
                 wardSqlRepository.Add(ward);
 

@@ -2,7 +2,7 @@
 
 namespace _365EJSC.ERP.Domain.Constants.Define
 {
-    public class WebLocalWardConstants
+    public class WebLocalWardConst
     {
         #region Database defines
         public const string TABLE_NAME = "website_localization_ward";

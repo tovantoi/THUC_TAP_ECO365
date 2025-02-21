@@ -15,14 +15,14 @@ namespace _365EJSC.ERP.Application.Tests.Define.WebLocalWards
     public class CreateWebLocalWardTest
     {
         private readonly Mock<IWebLocalWardSqlRepository> mockWardSqlRepository;
-        private readonly Mock<IWebLocalDictrictSqlRepository> mockDictrictSqlRepository;
+        private readonly Mock<IWebLocalDistrictSqlRepository> mockDictrictSqlRepository;
         private readonly Mock<ISqlUnitOfWork> mockSqlUnitOfWork;
         private readonly CreateWebLocalWardHandler handler;
 
         public CreateWebLocalWardTest()
         {
             mockWardSqlRepository = new Mock<IWebLocalWardSqlRepository>();
-            mockDictrictSqlRepository = new Mock<IWebLocalDictrictSqlRepository>();
+            mockDictrictSqlRepository = new Mock<IWebLocalDistrictSqlRepository>();
             mockSqlUnitOfWork = new Mock<ISqlUnitOfWork>();
             handler = new CreateWebLocalWardHandler(mockWardSqlRepository.Object, mockSqlUnitOfWork.Object, mockDictrictSqlRepository.Object);
         }
@@ -38,7 +38,7 @@ namespace _365EJSC.ERP.Application.Tests.Define.WebLocalWards
             };
 
             mockDictrictSqlRepository
-                .Setup(repo => repo.IsExistAsync(It.IsAny<Expression<Func<WebLocalDictrict, bool>>>(), It.IsAny<CancellationToken>()))
+                .Setup(repo => repo.IsExistAsync(It.IsAny<Expression<Func<WebLocalDistrict, bool>>>(), It.IsAny<CancellationToken>()))
                 .ReturnsAsync(false);
 
             // Act & Assert
@@ -62,7 +62,7 @@ namespace _365EJSC.ERP.Application.Tests.Define.WebLocalWards
             };
 
             // Mock repository cho customeraccountRepository
-            mockDictrictSqlRepository.Setup(repo => repo.IsExistAsync(It.IsAny<Expression<Func<WebLocalDictrict, bool>>>(), It.IsAny<CancellationToken>()))
+            mockDictrictSqlRepository.Setup(repo => repo.IsExistAsync(It.IsAny<Expression<Func<WebLocalDistrict, bool>>>(), It.IsAny<CancellationToken>()))
                 .ReturnsAsync(true); // Giả lập CustomerAccount tồn tại
 
             // Mock repository cho customerinformationRepository
@@ -94,7 +94,7 @@ namespace _365EJSC.ERP.Application.Tests.Define.WebLocalWards
             };
 
             // Mock repository cho customeraccountRepository
-            mockDictrictSqlRepository.Setup(repo => repo.IsExistAsync(It.IsAny<Expression<Func<WebLocalDictrict, bool>>>(), It.IsAny<CancellationToken>()))
+            mockDictrictSqlRepository.Setup(repo => repo.IsExistAsync(It.IsAny<Expression<Func<WebLocalDistrict, bool>>>(), It.IsAny<CancellationToken>()))
                 .ReturnsAsync(false); // Giả lập CustomerAccount không tồn tại
 
             // Act & Assert
@@ -151,7 +151,7 @@ namespace _365EJSC.ERP.Application.Tests.Define.WebLocalWards
                 .ReturnsAsync(mockTransaction.Object);
 
             mockDictrictSqlRepository
-                .Setup(repo => repo.IsExistAsync(It.IsAny<Expression<Func<WebLocalDictrict, bool>>>(), It.IsAny<CancellationToken>()))
+                .Setup(repo => repo.IsExistAsync(It.IsAny<Expression<Func<WebLocalDistrict, bool>>>(), It.IsAny<CancellationToken>()))
                 .ReturnsAsync(false);
 
             // Act & Assert
