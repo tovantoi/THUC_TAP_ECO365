@@ -17,10 +17,8 @@
 		<FrameworkReference Include="Microsoft.AspNetCore.App" />
 	</ItemGroup>
 	<ItemGroup>
-		<!-- Ward query -->
-		<Protobuf Include="Protos\Define\WebLocalWard\ward_query.proto" GrpcServices="Server" ProtoRoot="Protos\" AdditionalImportDirs="..\365EJSC.ERP.Contract\Protos\" />
 		<!-- Ward command -->
-		<Protobuf Include="Protos\Define\WebLocalWard\ward_command.proto" GrpcServices="Server" ProtoRoot="Protos\" AdditionalImportDirs="..\365EJSC.ERP.Contract\Protos\" />
+		<Protobuf Include="Protos\Define\WebLocalWards\web_local_ward.proto" GrpcServices="Server" ProtoRoot="Protos\" AdditionalImportDirs="..\365EJSC.ERP.Contract\Protos\" />
 	</ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\365ejsc.erp.Application\365EJSC.ERP.Application.csproj" />

@@ -1,4 +1,4 @@
-﻿using _365EJSC.ERP.Presentation.Services.Define.WebLocalWard;
+﻿using _365EJSC.ERP.Presentation.Services.Define.WebLocalWards;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Routing;
 
@@ -13,10 +13,7 @@ namespace _365EJSC.ERP.Presentation.Extensions
         /// <returns></returns>
         public static IEndpointRouteBuilder MapPresentationEndpoint(this IEndpointRouteBuilder app)
         {
-            // Ward query
-            app.MapGrpcService<WardQueryGrpcService>().EnableGrpcWeb();
-            // Ward command
-            app.MapGrpcService<WardCommandGrpcService>().EnableGrpcWeb();
+            app.MapGrpcService<WebLocalWardGrpcService>().EnableGrpcWeb();
             app.MapGrpcReflectionService();
             return app;
         }
