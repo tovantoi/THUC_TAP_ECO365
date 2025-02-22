@@ -3,7 +3,7 @@ using _365EJSC.ERP.Application.UserCases.Define.WebLocalWards;
 using _365EJSC.ERP.Application.Validators.Define.WebLocalWards;
 using _365EJSC.ERP.Contract.Enumerations;
 using _365EJSC.ERP.Contract.Exceptions;
-using _365EJSC.ERP.Domain.Abstractions.Repositories.Sql.Define;
+using _365EJSC.ERP.Domain.Abstractions.Repositories.Sql;
 using _365EJSC.ERP.Domain.Entities.Define;
 using Moq;
 using System.ComponentModel.DataAnnotations;

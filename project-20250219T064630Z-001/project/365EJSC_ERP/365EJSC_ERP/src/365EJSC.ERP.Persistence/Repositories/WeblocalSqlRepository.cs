@@ -1,6 +1,6 @@
 ﻿using _365EJSC.ERP.Contract.Enumerations;
 using _365EJSC.ERP.Contract.Exceptions;
-using _365EJSC.ERP.Domain.Abstractions.Repositories.Sql.Define;
+using _365EJSC.ERP.Domain.Abstractions.Repositories.Sql;
 using _365EJSC.ERP.Domain.Constants;
 using _365EJSC.ERP.Domain.Entities;
 using _365EJSC.ERP.Persistence.Repositories.Base;

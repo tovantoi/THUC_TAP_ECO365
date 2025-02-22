@@ -1,6 +1,6 @@
 ﻿using _365EJSC.ERP.Contract.Constants;
+using _365EJSC.ERP.Domain.Abstractions.Repositories.Sql;
 using _365EJSC.ERP.Domain.Abstractions.Repositories.Sql.Base;
-using _365EJSC.ERP.Domain.Abstractions.Repositories.Sql.Define;
 using _365EJSC.ERP.Persistence.Repositories;
 using _365EJSC.ERP.Persistence.Repositories.Base;
 using Microsoft.EntityFrameworkCore;

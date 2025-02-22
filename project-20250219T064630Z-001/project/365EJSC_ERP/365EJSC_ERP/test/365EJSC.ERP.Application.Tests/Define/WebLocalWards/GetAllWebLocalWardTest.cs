@@ -1,7 +1,7 @@
 ﻿using _365EJSC.ERP.Application.Requests.Define.WebLocalWards;
 using _365EJSC.ERP.Application.UserCases.Define.WebLocalWards;
 using _365EJSC.ERP.Contract.Enumerations;
-using _365EJSC.ERP.Domain.Abstractions.Repositories.Sql.Define;
+using _365EJSC.ERP.Domain.Abstractions.Repositories.Sql;
 using _365EJSC.ERP.Domain.Entities.Define;
 using Moq;
 using System.Linq.Expressions;
