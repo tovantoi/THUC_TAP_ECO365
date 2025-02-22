@@ -6,15 +6,15 @@ using _365EJSC.ERP.Contract.Exceptions;
 using _365EJSC.ERP.Domain.Abstractions.Repositories.Sql.Define;
 using _365EJSC.ERP.Domain.Entities.Define;
 using Moq;
+using System.ComponentModel.DataAnnotations;
+using System.Net;
 
 namespace _365EJSC.ERP.Application.Tests.Define.WebLocalWards
 {
     public class GetWebLocalWardByIdTest
     {
         private readonly Mock<IWebLocalWardSqlRepository> mockWardRepository;
-        private readonly Mock<IWebLocalDistrictSqlRepository> mockDistrictRepository;
-        private readonly Mock<IWebLocalProvinceSqlRepository> mockProvinceSqlRepository;
-        private readonly Mock<IWeblocalSqlRepository> mockLocalSqlRepository;
+
 
         private readonly GetDetailWebLocalWardHandler handler;
 
@@ -24,15 +24,18 @@ namespace _365EJSC.ERP.Application.Tests.Define.WebLocalWards
         public GetWebLocalWardByIdTest()
         {
             mockWardRepository = new Mock<IWebLocalWardSqlRepository>();
-            handler = new GetDetailWebLocalWardHandler(mockWardRepository.Object, mockDistrictRepository.Object, mockProvinceSqlRepository.Object, mockLocalSqlRepository.Object);
+            handler = new GetDetailWebLocalWardHandler(mockWardRepository.Object);
         }
         [Fact]
         public async Task Handle_Should_ReturnSample_When_Found()
         {
             // Arrange
-            var sample = new WebLocalWard { Id = 1, Name = "Ward 1" };
-            mockWardRepository.Setup(r => r.FindByIdAsync(1, false, It.IsAny<CancellationToken>()))
+            var sample = new WebLocalWard { Id = 1, Name = "Ward 1", WebLocalDistrict = new WebLocalDistrict { WebLocalProvince = new WebLocalProvince() } };
+
+            mockWardRepository
+                .Setup(r => r.FindByIdAsync(1, true, It.IsAny<CancellationToken>(), It.IsAny<System.Linq.Expressions.Expression<System.Func<WebLocalWard, object>>[]>()))
                 .ReturnsAsync(sample);
+
             var query = new GetDetailWebLocalWardRequest { Id = 1 };
 
             // Act
@@ -40,35 +43,30 @@ namespace _365EJSC.ERP.Application.Tests.Define.WebLocalWards
 
             // Assert
             Assert.True(result.IsSuccess);
+            Assert.Equal(1, result.Data.Id);
+            Assert.Equal("Ward 1", result.Data.Name);
         }
 
         [Fact]
-        public async Task Handle_Should_ThrowException_When_Sample_NotFound()
+        public async Task Handle_Should_Return_NotFound_When_Sample_NotFound()
         {
-            // Arrange
-            mockWardRepository.Setup(r => r.FindByIdAsync(99, false, It.IsAny<CancellationToken>()))
-                .ThrowsAsync(new CustomException
-                {
-                    MessageCode = MsgCode.ERR_WARD_ID_NOT_FOUND
-                });
+            // Arrange: Mock repository trả về null khi không tìm thấy
+            mockWardRepository
+                .Setup(r => r.FindByIdAsync(99, true, It.IsAny<CancellationToken>(), It.IsAny<System.Linq.Expressions.Expression<System.Func<WebLocalWard, object>>[]>()))
+                .ReturnsAsync((WebLocalWard)null);
+
             var query = new GetDetailWebLocalWardRequest { Id = 99 };
 
             // Act
-            Func<Task> act = async () => await handler.Handle(query, CancellationToken.None);
+            var result = await handler.Handle(query, CancellationToken.None);
 
             // Assert
-            await Assert.ThrowsAsync<CustomException>(act);
-            try
-            {
-                await handler.Handle(query, CancellationToken.None);
-            }
-            catch (CustomException e)
-            {
-                Assert.Equal(MsgCode.ERR_WARD_ID_NOT_FOUND, e.MessageCode);
-            }
+            Assert.False(result.IsSuccess);
+            Assert.Equal((int)HttpStatusCode.NotFound, result.StatusCode);
+            Assert.Equal(MsgCode.ERR_WARD_ID_NOT_FOUND, result.MessageCode);
         }
 
-        [Fact]
+    [Fact]
         public Task Handle_Should_ThrowException_When_Request_Invalid()
         {
             // Arrange

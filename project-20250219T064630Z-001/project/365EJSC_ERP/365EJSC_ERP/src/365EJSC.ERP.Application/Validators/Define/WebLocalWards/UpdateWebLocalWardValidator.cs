@@ -5,9 +5,15 @@ using _365EJSC.ERP.Contract.Validators;
 using _365EJSC.ERP.Domain.Constants.Define;
 
 namespace _365EJSC.ERP.Application.Validators.Define.WebLocalWards
-{ 
+{
+    /// <summary>
+    /// Validator for <see cref="UpdateWebLocalWardRequest"/>
+    /// </summary>
     public class UpdateWebLocalWardValidator : Validator<UpdateWebLocalWardRequest>
     {
+        /// <summary>
+        /// Constructor of <see cref="UpdateWebLocalWardValidator"/>, register validator rules for <see cref="UpdateWebLocalWardRequest"/>
+        /// </summary>
         public UpdateWebLocalWardValidator()
         {
             WithValidator(MsgCode.ERR_WARD_INVALID);

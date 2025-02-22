@@ -61,13 +61,13 @@ namespace _365EJSC.ERP.Application.Tests.Define.WebLocalWards
                 DistrictId = 2
             };
 
-            // Mock repository cho customeraccountRepository
+
             mockDictrictSqlRepository.Setup(repo => repo.IsExistAsync(It.IsAny<Expression<Func<WebLocalDistrict, bool>>>(), It.IsAny<CancellationToken>()))
-                .ReturnsAsync(true); // Giả lập CustomerAccount tồn tại
+                .ReturnsAsync(true);
 
             // Mock repository cho customerinformationRepository
             mockWardSqlRepository.Setup(repo => repo.IsExistAsync(It.IsAny<Expression<Func<Domain.Entities.Define.WebLocalWard, bool>>>(), It.IsAny<CancellationToken>()))
-                .ReturnsAsync(true); // Giả lập rằng CustomerInformation đã tồn tại
+                .ReturnsAsync(true); 
 
             // Act & Assert
             await Assert.ThrowsAsync<CustomException>(async () =>
@@ -75,7 +75,7 @@ namespace _365EJSC.ERP.Application.Tests.Define.WebLocalWards
                 await handler.Handle(command, CancellationToken.None);
             });
 
-            mockWardSqlRepository.Verify(repo => repo.Add(It.IsAny<Domain.Entities.Define.WebLocalWard>()), Times.Never); // Không được thêm mới
+            mockWardSqlRepository.Verify(repo => repo.Add(It.IsAny<Domain.Entities.Define.WebLocalWard>()), Times.Never); 
         }
 
 
@@ -93,9 +93,9 @@ namespace _365EJSC.ERP.Application.Tests.Define.WebLocalWards
                 DistrictId = 2
             };
 
-            // Mock repository cho customeraccountRepository
+
             mockDictrictSqlRepository.Setup(repo => repo.IsExistAsync(It.IsAny<Expression<Func<WebLocalDistrict, bool>>>(), It.IsAny<CancellationToken>()))
-                .ReturnsAsync(false); // Giả lập CustomerAccount không tồn tại
+                .ReturnsAsync(false); 
 
             // Act & Assert
             await Assert.ThrowsAsync<CustomException>(async () =>
@@ -103,7 +103,7 @@ namespace _365EJSC.ERP.Application.Tests.Define.WebLocalWards
                 await handler.Handle(command, CancellationToken.None);
             });
 
-            mockWardSqlRepository.Verify(repo => repo.Add(It.IsAny<Domain.Entities.Define.WebLocalWard>()), Times.Never); // Không được thêm mới
+            mockWardSqlRepository.Verify(repo => repo.Add(It.IsAny<Domain.Entities.Define.WebLocalWard>()), Times.Never);
         }
 
         [Fact]

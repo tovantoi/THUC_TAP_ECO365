@@ -31,11 +31,11 @@ namespace _365EJSC.ERP.Persistence.Repositories
             // Call base method
             WebLocalWard? ward = await base.FindByIdAsync(id, isTracking, cancellationToken, includeProperties);
 
-            // Throw not found exception when sample is null
+            // Throw not found exception when ward is null
             if (ward is null)
                 CustomException.ThrowNotFoundException(typeof(WebLocalWard), MsgCode.ERR_WARD_ID_NOT_FOUND, WebLocalWardConst.MSG_WARD_ID_NOT_FOUND);
 
-            // Return founded sample
+            // Return founded ward
             return ward;
         }
 

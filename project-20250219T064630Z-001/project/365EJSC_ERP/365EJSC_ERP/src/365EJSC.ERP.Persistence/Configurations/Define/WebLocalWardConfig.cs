@@ -5,6 +5,9 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace _365EJSC.ERP.Persistence.Configurations.Define
 {
+    /// <summary>
+    /// EF Core configuration for <see cref="WebLocalWard"/>
+    /// </summary>
     public class WebLocalWardConfig : IEntityTypeConfiguration<WebLocalWard>
     {
         public void Configure(EntityTypeBuilder<WebLocalWard> builder)

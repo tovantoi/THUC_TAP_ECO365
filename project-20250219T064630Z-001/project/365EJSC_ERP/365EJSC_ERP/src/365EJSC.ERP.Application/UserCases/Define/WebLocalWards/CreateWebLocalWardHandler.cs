@@ -14,11 +14,19 @@ using System.Data;
 
 namespace _365EJSC.ERP.Application.UserCases.Define.WebLocalWards
 {
+    /// <summary>
+    /// Hand/// Handler for <see cref="CreateWebLocalWardRequest"/>/ </summary>
     public class CreateWebLocalWardHandler : IRequestHandler<CreateWebLocalWardRequest, Result<object>>
     {
+        /// <summary>
+        /// Repo/// Repository handle data access of <see cref="WebLocalWard"/>>  /// </summary>
         private readonly IWebLocalWardSqlRepository wardSqlRepository;
+        /// <summary>
+        /// Repo/// Repository handle data access of <see cref="WebLocalWard"/>>  /// </summary>
         private readonly IWebLocalDistrictSqlRepository dictrictSqlRepository;
-
+        /// <summary>
+        /// Unit of work to handle transaction
+        /// </summary>
         private readonly ISqlUnitOfWork sqlUnitOfWork;
 
         public CreateWebLocalWardHandler(IWebLocalWardSqlRepository wardSqlRepository, ISqlUnitOfWork sqlUnitOfWork, IWebLocalDistrictSqlRepository dictrictSqlRepository)
@@ -27,13 +35,25 @@ namespace _365EJSC.ERP.Application.UserCases.Define.WebLocalWards
             this.sqlUnitOfWork = sqlUnitOfWork;
             this.dictrictSqlRepository = dictrictSqlRepository;
         }
+
+        /// <summary>
+        /// Handle <see cref="CreateWebLocalWardRequest"/>, create new <see cref="WebLocalWard"/> base on data <see cref="CreateWebLocalWardRequest"/>
+        /// and save to database
+        /// </summary>
+        /// <param name="request">Request to handle</param>
+        /// <param name="cancellationToken"></param>
+        /// <returns><see cref="Result{TModel}"/> with success status</returns>
+        /// <exception cref="Exception"></exception>
         public async Task<Result<object>> Handle(CreateWebLocalWardRequest request, CancellationToken cancellationToken)
         {
+            // Create validator and validate request
             CreateWebLocalWardValidator validator = new();
             validator.ValidateAndThrow(request);
 
+            // Create new ward from request
             WebLocalWard? ward = request.MapTo<WebLocalWard>();
 
+            // Begin transaction
             using IDbTransaction transaction = await sqlUnitOfWork.BeginTransactionAsync(cancellationToken);
             try
             {
@@ -43,16 +63,22 @@ namespace _365EJSC.ERP.Application.UserCases.Define.WebLocalWards
                     var errorMessage = MsgConst.NOT_FOUND_FIND_KEY.FormatMsg(WebLocalWardConst.FIELD_DISTRICT_ID);
                     CustomException.ThrowNotFoundException(typeof(WebLocalWard), MsgCode.ERR_DISTRICT_ID_NOT_FOUND, errorMessage);
                 }
+
+                // Marked sample as Created state
                 wardSqlRepository.Add(ward);
 
+                // Save data to database
                 await sqlUnitOfWork.SaveChangesAsync(cancellationToken);
 
+                // Commit transaction
                 transaction.Commit();
 
+                // Return success result
                 return Result<object>.Ok();
             }
             catch (Exception)
             {
+                // Rollback transaction if any exception happened, then throw exception
                 transaction.Rollback();
                 throw;
             }

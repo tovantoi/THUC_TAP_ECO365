@@ -56,17 +56,19 @@ namespace _365EJSC.ERP.Application.Tests.Define.WebLocalWards
             // Act & Assert
             await Assert.ThrowsAsync<CustomException>(() => handler.Handle(command, CancellationToken.None));
         }
-
-        // Test for greater than 0
         [Fact]
         public async Task Handle_ShouldThrowCustomException_WhenWardIdIsLessThanOrEqualToZero()
         {
             // Arrange
-            var command = new UpdateWebLocalWardRequest { Id = 1, DistrictId = 0 };
+            var command = new UpdateWebLocalWardRequest { Id = 0, DistrictId = 1 };
 
             // Act & Assert
-            await Assert.ThrowsAsync<CustomException>(() => handler.Handle(command, CancellationToken.None));
+            var exception = await Assert.ThrowsAsync<CustomException>(() => handler.Handle(command, CancellationToken.None));
+
+            Assert.Equal(MsgCode.ERR_WARD_INVALID, exception.MessageCode);
         }
+
+
         [Fact]
         public async Task Handle_ShouldThrowCustomException_WhenRequestIsInvalid()
         {

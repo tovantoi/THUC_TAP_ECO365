@@ -6,8 +6,14 @@ using _365EJSC.ERP.Domain.Constants.Define;
 
 namespace _365EJSC.ERP.Application.Validators.Define.WebLocalWards
 {
+    /// <summary>
+    /// Validator for <see cref="CreateWebLocalWardRequest"/>
+    /// </summary>
     public class CreateWebLocalWardValidator : Validator<CreateWebLocalWardRequest>
     {
+        /// <summary>
+        /// Constructor of <see cref="CreateWebLocalWardValidator"/>, register validator rules for <see cref="CreateWebLocalWardRequest"/>
+        /// </summary>
         public CreateWebLocalWardValidator()
         {
             WithValidator(MsgCode.ERR_WARD_INVALID);

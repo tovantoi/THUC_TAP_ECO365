@@ -9,9 +9,19 @@ using System.Data;
 
 namespace _365EJSC.ERP.Application.UserCases.Define.WebLocalWards
 {
+    /// <summary>
+    /// Handler for <see cref="DeleteWebLocalWardRequest"/>
+    /// </summary>
     public class DeleteWebLocalWardHandler : IRequestHandler<DeleteWebLocalWardRequest, Result<object>>
     {
+        /// <summary>
+        /// Repository handling data access of <see cref="WebLocalWard"/>
+        /// </summary>
         private readonly IWebLocalWardSqlRepository wardsqlRepository;
+
+        /// <summary>
+        /// Unit of work to handle transactions
+        /// </summary>
         private readonly ISqlUnitOfWork sqlUnitOfWork;
 
         public DeleteWebLocalWardHandler(IWebLocalWardSqlRepository wardsqlRepository, ISqlUnitOfWork sqlUnitOfWork)
@@ -19,15 +29,24 @@ namespace _365EJSC.ERP.Application.UserCases.Define.WebLocalWards
             this.wardsqlRepository = wardsqlRepository;
             this.sqlUnitOfWork = sqlUnitOfWork;
         }
+
+        /// <summary>
+        /// Handle <see cref="DeleteWebLocalWardRequest"/>, delete an existing <see cref="WebLocalWard"/>
+        /// based on data in <see cref="DeleteWebLocalWardRequest"/> and save changes to the database
+        /// </summary>
+        /// <param name="request">Request to handle</param>
+        /// <param name="cancellationToken"></param>
+        /// <returns><see cref="Result{TModel}"/> with success status</returns>
+        /// <exception cref="Exception"></exception>
         public async Task<Result<object>> Handle(DeleteWebLocalWardRequest request, CancellationToken cancellationToken)
         {
             // Create validator and validate request
             DeleteWebLocalWardValidator validator = new();
             validator.ValidateAndThrow(request);
 
-            // Find sample base on id provided from database, if sample was not found, throw not found exception.
+            // Find ward base on id provided from database, if ward was not found, throw not found exception.
             // Need tracking to delete sample.
-            WebLocalWard sample = await wardsqlRepository.FindByIdAsync((int)request.Id, true, cancellationToken);
+            WebLocalWard ward = await wardsqlRepository.FindByIdAsync((int)request.Id, true, cancellationToken);
 
             // Begin transaction
             using IDbTransaction transaction = await sqlUnitOfWork.BeginTransactionAsync(cancellationToken);
@@ -35,7 +54,7 @@ namespace _365EJSC.ERP.Application.UserCases.Define.WebLocalWards
             try
             {
                 // Marked sample as Deleted state
-                wardsqlRepository.Remove(sample);
+                wardsqlRepository.Remove(ward);
 
                 // Save changes to database
                 await sqlUnitOfWork.SaveChangesAsync(cancellationToken);
