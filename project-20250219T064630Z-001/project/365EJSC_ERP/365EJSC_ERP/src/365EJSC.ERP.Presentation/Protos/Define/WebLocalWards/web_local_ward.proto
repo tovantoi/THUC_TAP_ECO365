@@ -8,7 +8,7 @@ service WardService {
   rpc CreateWard(CreateWardRequest) returns (CommonResult);
   rpc UpdateWard(UpdateWardRequest) returns (CommonResult);
   rpc DeleteWard(DeleteWardRequest) returns (CommonResult);
-  rpc GetWard(GetWardRequest) returns (CommonResult);
+  rpc GetDetailWard(GetWardRequest) returns (CommonResult);
   rpc GetAllWards(GetAllWardsRequest) returns (CommonResult);
 }
 
@@ -41,4 +41,5 @@ message GetWardRequest {
 }
 
 message GetAllWardsRequest {
+     optional google.protobuf.Int32Value Id = 1;
 }

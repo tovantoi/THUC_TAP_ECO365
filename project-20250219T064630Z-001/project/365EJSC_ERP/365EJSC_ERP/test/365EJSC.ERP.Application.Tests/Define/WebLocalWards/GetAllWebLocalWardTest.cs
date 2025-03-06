@@ -1,11 +1,9 @@
 ﻿using _365EJSC.ERP.Application.Requests.Define.WebLocalWards;
 using _365EJSC.ERP.Application.UserCases.Define.WebLocalWards;
-using _365EJSC.ERP.Contract.Enumerations;
 using _365EJSC.ERP.Domain.Abstractions.Repositories.Sql;
 using _365EJSC.ERP.Domain.Entities.Define;
 using Moq;
 using System.Linq.Expressions;
-using System.Net;
 
 namespace _365EJSC.ERP.Application.Tests.Define.WebLocalWards
 {
@@ -52,12 +50,13 @@ namespace _365EJSC.ERP.Application.Tests.Define.WebLocalWards
         }
 
         [Fact]
-        public async Task Handle_Should_ReturnNotFound_When_NoWardsExist()
+        public async Task Handle_Should_ReturnEmptyList_When_NoWardsExist()
         {
             // Arrange
             var emptyList = new List<WebLocalWard>().AsQueryable();
+
             mockWardRepository
-                .Setup(repo => repo.FindAll(null, false, It.IsAny<System.Linq.Expressions.Expression<System.Func<WebLocalWard, object>>[]>()))
+                .Setup(repo => repo.FindAll(null, false))
                 .Returns(emptyList);
 
             var query = new GetAllWebLocalWardRequest();
@@ -66,9 +65,11 @@ namespace _365EJSC.ERP.Application.Tests.Define.WebLocalWards
             var result = await handler.Handle(query, CancellationToken.None);
 
             // Assert
-            Assert.False(result.IsSuccess);
-            Assert.Equal((int)HttpStatusCode.NotFound, result.StatusCode);
-            Assert.Equal(MsgCode.ERR_WARD_INVALID, result.MessageCode);
+            Assert.True(result.IsSuccess);  
+            Assert.NotNull(result.Data);
+            Assert.Empty(result.Data);
         }
+
+
     }
 }

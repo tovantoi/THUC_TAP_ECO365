@@ -7,7 +7,7 @@ using MediatR;
 using ProtoResult;
 using WardGrpc;
 
-namespace _365EJSC.ERP.Presentation.Services.Define.WebLocalWards
+namespace _365EJSC.ERP.Presentation.Services.Define
 {
     /// <summary>
     /// gRPC service for managing WebLocalWards, overrides from <see cref="WardService.WardServiceBase"/>
@@ -94,7 +94,7 @@ namespace _365EJSC.ERP.Presentation.Services.Define.WebLocalWards
         /// <param name="request">Request to get details of a specific <see cref="WebLocalWard"/></param>
         /// <param name="context">Current server call context</param>
         /// <returns><see cref="CommonResult"/> containing the result</returns>
-        public override async Task<CommonResult> GetWard(GetWardRequest request, ServerCallContext context)
+        public override async Task<CommonResult> GetDetailWard(GetWardRequest request, ServerCallContext context)
         {
             try
             {
@@ -118,7 +118,7 @@ namespace _365EJSC.ERP.Presentation.Services.Define.WebLocalWards
         {
             try
             {
-                GetAllWebLocalWardRequest query = new();
+                GetAllWebLocalWardRequest? query = request.MapTo<GetAllWebLocalWardRequest>();
                 Result<List<WebLocalWard>> result = await mediator.Send(query);
                 return result.ConvertToCommonResult();
             }

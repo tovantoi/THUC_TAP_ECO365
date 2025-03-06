@@ -1,0 +1,6 @@
+@_365EJSC.ERP.API_HostAddress = http://localhost:5193
+
+GET {{_365EJSC.ERP.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

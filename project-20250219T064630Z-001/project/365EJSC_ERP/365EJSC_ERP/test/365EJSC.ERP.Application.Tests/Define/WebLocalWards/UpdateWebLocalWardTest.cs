@@ -51,7 +51,7 @@ namespace _365EJSC.ERP.Application.Tests.Define.WebLocalWards
         public async Task Handle_ShouldThrowCustomException_WhenIdIsNull()
         {
             // Arrange
-            var command = new UpdateWebLocalWardRequest { Id = null };
+            var command = new UpdateWebLocalWardRequest();
 
             // Act & Assert
             await Assert.ThrowsAsync<CustomException>(() => handler.Handle(command, CancellationToken.None));

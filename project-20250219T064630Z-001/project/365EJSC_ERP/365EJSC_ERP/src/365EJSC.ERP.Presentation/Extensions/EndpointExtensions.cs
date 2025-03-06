@@ -1,4 +1,4 @@
-﻿using _365EJSC.ERP.Presentation.Services.Define.WebLocalWards;
+﻿using _365EJSC.ERP.Presentation.Services.Define;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Routing;
 
