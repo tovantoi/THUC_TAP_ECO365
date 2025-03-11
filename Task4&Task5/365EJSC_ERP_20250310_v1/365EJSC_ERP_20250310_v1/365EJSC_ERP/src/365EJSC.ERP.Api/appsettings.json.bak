@@ -1,0 +1,14 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  "ConnectionStrings": {
+    //"DbSqlServer": "Server=.\\SQLEXPRESS;Database=365ArchitectDB;Trusted_Connection=True; Integrated Security=True;MultipleActiveResultSets=True ; TrustServerCertificate=True"
+    "DbSqlServer": "Data Source=CHIBAO;User ID=sa;Password=123;Initial Catalog=365ERP;MultipleActiveResultSets=true;TrustServerCertificate=True;Trusted_Connection=False;Connect Timeout=240;"
+    //"DbSqlServer": "Server=CHIBAO;Database=365ERP;Trusted_Connection=True; Integrated Security=True;MultipleActiveResultSets=True ; TrustServerCertificate=True"
+  }
+}

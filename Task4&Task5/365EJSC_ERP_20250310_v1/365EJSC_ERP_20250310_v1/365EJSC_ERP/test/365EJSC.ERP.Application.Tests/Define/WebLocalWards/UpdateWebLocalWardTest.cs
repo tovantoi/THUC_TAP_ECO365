@@ -1,0 +1,84 @@
+﻿using _365EJSC.ERP.Application.Requests.Define.WebLocalWards;
+using _365EJSC.ERP.Application.UserCases.Define.WebLocalWards;
+using _365EJSC.ERP.Contract.Enumerations;
+using _365EJSC.ERP.Contract.Exceptions;
+using _365EJSC.ERP.Domain.Abstractions.Repositories.Sql;
+using _365EJSC.ERP.Domain.Abstractions.Repositories.Sql.Base;
+using _365EJSC.ERP.Domain.Abstractions.Repositories.Sql.Define;
+using Moq;
+
+namespace _365EJSC.ERP.Application.Tests.Define.WebLocalWards
+{
+    public class UpdateWebLocalWardTest
+    {
+        private readonly Mock<IWebLocalWardSqlRepository> mockWardSqlRepository;
+        private readonly Mock<IWebLocalDistrictSqlRepository> mockDistrictSqlRepository;
+        private readonly Mock<ISqlUnitOfWork> mockSqlUnitOfWork;
+        private readonly UpdateWebLocalWardHandler handler;
+
+        public UpdateWebLocalWardTest()
+        {
+            mockWardSqlRepository = new Mock<IWebLocalWardSqlRepository>();
+            mockDistrictSqlRepository = new Mock<IWebLocalDistrictSqlRepository>();
+            mockSqlUnitOfWork = new Mock<ISqlUnitOfWork>();
+            handler = new UpdateWebLocalWardHandler(mockWardSqlRepository.Object, mockSqlUnitOfWork.Object, mockDistrictSqlRepository.Object);
+        }
+
+        [Fact]
+        public async Task Handle_WardNotFound_ThrowsCustomException()
+        {
+            // Arrange
+            var request = new UpdateWebLocalWardRequest { Id = 1 };
+
+            mockWardSqlRepository
+                .Setup(repo => repo.FindByIdAsync((int)request.Id, true, It.IsAny<CancellationToken>()))
+                .ThrowsAsync(new CustomException
+                {
+                    MessageCode = MsgCode.ERR_WARD_ID_NOT_FOUND
+                });
+
+            // Act & Assert
+            await Assert.ThrowsAsync<CustomException>(() => handler.Handle(request, CancellationToken.None));
+            try
+            {
+                await handler.Handle(request, CancellationToken.None);
+            }
+            catch (CustomException e)
+            {
+                Assert.Equal(MsgCode.ERR_WARD_ID_NOT_FOUND, e.MessageCode);
+            }
+        }
+        [Fact]
+        public async Task Handle_ShouldThrowCustomException_WhenIdIsNull()
+        {
+            // Arrange
+            var command = new UpdateWebLocalWardRequest();
+
+            // Act & Assert
+            await Assert.ThrowsAsync<CustomException>(() => handler.Handle(command, CancellationToken.None));
+        }
+        [Fact]
+        public async Task Handle_ShouldThrowCustomException_WhenWardIdIsLessThanOrEqualToZero()
+        {
+            // Arrange
+            var command = new UpdateWebLocalWardRequest { Id = 0, DistrictId = 1 };
+
+            // Act & Assert
+            var exception = await Assert.ThrowsAsync<CustomException>(() => handler.Handle(command, CancellationToken.None));
+
+            Assert.Equal(MsgCode.ERR_WARD_INVALID, exception.MessageCode);
+        }
+
+
+        [Fact]
+        public async Task Handle_ShouldThrowCustomException_WhenRequestIsInvalid()
+        {
+            // Arrange
+            var request = new UpdateWebLocalWardRequest { Id = 0, DistrictId = 0 }; // Invalid ID & DistrictId
+
+            // Act & Assert
+            await Assert.ThrowsAsync<CustomException>(() => handler.Handle(request, CancellationToken.None));
+        }
+
+    }
+}

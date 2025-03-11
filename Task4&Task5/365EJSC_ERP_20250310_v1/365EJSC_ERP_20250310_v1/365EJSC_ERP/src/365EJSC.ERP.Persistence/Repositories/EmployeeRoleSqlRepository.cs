@@ -1,0 +1,13 @@
+﻿using _365EJSC.ERP.Domain.Abstractions.Repositories.Sql;
+using _365EJSC.ERP.Domain.Entities.HRM;
+using _365EJSC.ERP.Persistence.Repositories.Base;
+
+namespace _365EJSC.ERP.Persistence.Repositories
+{
+    internal class EmployeeRoleSqlRepository : GenericSqlRepository<HrmEmployeeRole, int>, IEmployeeRoleSqlRepository
+    {
+        public EmployeeRoleSqlRepository(ApplicationDbContext context) : base(context)
+        {
+        }
+    }
+}
